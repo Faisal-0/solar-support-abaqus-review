@@ -1,6 +1,6 @@
 """Verify the review snapshot's inventory and fidelity, not model validity."""
 from pathlib import Path
-import hashlib, json
+import hashlib, json, subprocess
 root=Path(__file__).resolve().parents[1]
 snapshot=json.loads((root/'SNAPSHOT.json').read_text())
 pdf=root/'source'/'Cigdem_Avci_Karatas_EurasianSciEnTech2020.pdf'
@@ -35,10 +35,28 @@ report={'purpose':'Package fidelity only; not a claim of model correctness or va
         'excluded_binary_file_check_passed':True,'all_files_below_5_MiB':True}
 (root/'PACKAGE_CHECK.json').write_text(json.dumps(report,indent=2))
 manifest=[]
+indexed={}
+if (root/'.git').exists():
+    entries=[]
+    for row in subprocess.check_output(['git','ls-files','--stage','-z'],cwd=root).split(b'\0'):
+        if row:
+            info,path=row.split(b'\t',1)
+            entries.append((info.split()[1],path.decode('utf-8')))
+    if entries:
+        result=subprocess.run(['git','cat-file','--batch'],cwd=root,
+            input=b'\n'.join(e[0] for e in entries)+b'\n',stdout=subprocess.PIPE,check=True)
+        raw=result.stdout; pos=0
+        for oid,name in entries:
+            end=raw.index(b'\n',pos); size=int(raw[pos:end].split()[-1]); pos=end+1
+            indexed[name]=raw[pos:pos+size]; pos+=size+1
 for path in sorted(root.rglob('*')):
     if path.is_file() and '.git' not in path.parts and path.name!='FILE_MANIFEST.json':
-        manifest.append({'path':path.relative_to(root).as_posix(),'bytes':path.stat().st_size,
-                         'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
+        relative=path.relative_to(root).as_posix()
+        # Stage changes before generating a publication manifest. Hash actual
+        # Git blobs so platform-specific newline handling cannot change hashes.
+        payload=indexed.get(relative,path.read_bytes())
+        manifest.append({'path':relative,'bytes':len(payload),
+                         'sha256':hashlib.sha256(payload).hexdigest()})
 (root/'FILE_MANIFEST.json').write_text(json.dumps(manifest,indent=2))
 print(json.dumps(report,indent=2))
 print('Files:',len(manifest),'Total MiB:',round(sum(f['bytes'] for f in manifest)/1048576,2))

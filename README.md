@@ -24,6 +24,8 @@ Please form your own interpretation from the original source. Existing model ass
 - `prior_interpretations/`: historical assumptions and conclusions. Their presence does not endorse them.
 - `SNAPSHOT.json` and `FILE_MANIFEST.json`: source revision, scope and file hashes.
 
+Manifest hashes use the published Git blob bytes, including Git's handling of text line endings; PDF and PNG bytes are unchanged. The manifest excludes itself.
+
 The source project contains completed Abaqus runs. Local Abaqus 2024 and 2018 are available; the client's older-version compatibility requirement must be distinguished from what was actually tested. The `.inp` decks can be read directly; the builder and run scripts preserve source detail.
 
 ## Snapshot boundaries
