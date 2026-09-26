@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\faisa\Desktop\Freelance Work\amandaamaralr\solar_validation\scripts\extract_results.py", line 7, in <module>
+    odb=openOdb(path=meta['job']+'.odb',readOnly=True)
+TypeError: path; found 'unicode', expecting a recognized type filling string dict

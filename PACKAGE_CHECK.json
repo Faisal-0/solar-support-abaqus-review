@@ -1,0 +1,9 @@
+{
+  "purpose": "Package fidelity only; not a claim of model correctness or validation",
+  "runs_verified": 25,
+  "completed_cases_verified": 225,
+  "original_pdf_hash_matches": true,
+  "raw_export_extrema_and_base_reactions_match_saved_summaries": true,
+  "excluded_binary_file_check_passed": true,
+  "all_files_below_5_MiB": true
+}

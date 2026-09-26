@@ -1,0 +1,9 @@
+{
+  "run_id": "011_mesh25",
+  "mesh_size": 25,
+  "wind_pressure": 101.0,
+  "purlin_layout": "row_centres",
+  "dead_mode": "geometry",
+  "column_top_shift": 0.0,
+  "brace_front_drop": 125.0
+}

@@ -1,0 +1,9 @@
+{
+  "purlin_layout": "row_centres", 
+  "brace_front_drop": 125.0, 
+  "wind_pressure": 101.0, 
+  "run_id": "013_abaqus2018", 
+  "column_top_shift": 0.0, 
+  "mesh_size": 25, 
+  "dead_mode": "geometry"
+}

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2012"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2012"/>
+<meta xmlns="" name="DC.Type" content="concept"/>
+<meta xmlns="" name="DC.Title" content="Beam cross-section library"/>
+<meta xmlns="" name="DC.Relation" scheme="URI" content="simaelm-c-beamoverview.htm"/>
+<meta xmlns="" name="DC.Relation" scheme="URI" content="simaelm-c-beamsections.htm"/>
+<meta xmlns="" name="DC.Relation" scheme="URI" content="simaelm-c-frame.htm"/>
+<meta xmlns="" name="DC.Relation" scheme="URI" content="../SIMACAECAERefMap/simacae-c-prppropprofile.htm"/>
+<meta xmlns="" name="DC.Format" content="XHTML"/>
+<meta xmlns="" name="DC.Identifier" content="simaelm-c-beamcrosssectlib"/>
+<meta xmlns="" name="DC.Language" content="en"/>
+<link rel="stylesheet" type="text/css" href="../DSDocXML.css"/>
+<title xmlns="" xmlns:mml="http://www.w3.org/1998/Math/MathML">Beam cross-section library</title>
+<script xmlns="" xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../DSDocHighlight.js">
+  	/* */
+  	</script><script xmlns="" xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../MathJax/MathJax.js?config=DS-default,local/local">
+  		/* */
+  		</script></head>
+<body xmlns="" onLoad="highlightSearchTerms();" id="simaelm-c-beamcrosssectlib">
+<a xmlns:mml="http://www.w3.org/1998/Math/MathML" name="hj-top"> </a><table xmlns:mml="http://www.w3.org/1998/Math/MathML" class="table1" id="table11"><tr><td><table class="DocHeader"><tr><td class="DocHeader1" colspan="2"><h1>Beam cross-section library</h1></td></tr><tr><td class="DocHeader4" colspan="2"/></tr><tr><td class="DocHeader3"><table class="DocHeaderIntro" id="table12"><tr><td class="Intro1Only"><p class="abstract"><p>This section describes the standard beam sections that are available in <span xmlns="http://www.w3.org/1999/xhtml" class="ph">Abaqus/Standard</span> and <span xmlns="http://www.w3.org/1999/xhtml" class="ph">Abaqus/Explicit</span> for use with beam elements. A subset of the standard beam sections are available for use with frame elements in <span xmlns="http://www.w3.org/1999/xhtml" class="ph">Abaqus/Standard</span>. General (nonstandard) beam cross-sections can be defined as described in <a class="xref" href="simaelm-c-beamsections.htm">Choosing a beam cross-section</a>.</p>
+<p>The following topics are discussed:</p><ul><li><a href="#simaelm-c-beamcrosssectlib-arbitrary" id="toc_rg" title="">Arbitrary, thin-walled, open and closed sections</a></li><li><a href="#simaelm-c-beamcrosssectlib-t-BoxSection-sma-topic7" id="toc_rg" title="">Box section</a></li><li><a href="#simaelm-c-beamcrosssectlib-t-CircularSection-sma-topic14" id="toc_rg" title="">Circular section</a></li><li><a href="#simaelm-c-beamcrosssectlib-t-HexagonalSection-sma-topic21" id="toc_rg" title="">Hexagonal section</a></li><li><a href="#simaelm-c-beamcrosssectlib-t-Isection-sma-topic27" id="toc_rg" title="">I-section</a></li><li><a href="#simaelm-c-beamcrosssectlib-t-Lsection-sma-topic34" id="toc_rg" title="">L-section</a></li><li><a href="#simaelm-c-beamcrosssectlib-t-PipeSectionthinwalled-sma-topic40" id="toc_rg" title="">Pipe section (thin-walled)</a></li><li><a href="#simaelm-c-beamcrosssectlib-t-PipeSectionthickwalled-sma-topic47" id="toc_rg" title="">Pipe section (thick-walled)</a></li><li><a href="#simaelm-c-beamcrosssectlib-t-RectangularSection-sma-topic53" id="toc_rg" title="">Rectangular section</a></li><li><a href="#simaelm-c-beamcrosssectlib-t-TrapezoidalSection-sma-topic60" id="toc_rg" title="">Trapezoidal section</a></li></ul>
+</p></td></tr></table></td><td class="DocHeader2"><table class="DocTopics" id="table13"><tr><td class="TopicsTitle">Related Topics</td></tr><tr><td><a href="simaelm-c-beamoverview.htm" class="link">About beam modeling</a></td></tr><tr><td><a href="simaelm-c-beamsections.htm" class="link">Choosing a beam cross-section</a></td></tr><tr><td><a href="simaelm-c-frame.htm" class="link">Frame elements</a></td></tr><tr><td height="8px"/></tr><tr><td class="TopicsTitleNormal">In Other Guides</td></tr><tr><td><a href="../SIMACAECAERefMap/simacae-c-prppropprofile.htm" class="link">Defining profiles</a></td></tr></table></td></tr></table>
+
+<div class="body conbody abqbeamsectlibsection-body"><div class="section keygroup smakeygroup"><p class="p keysentry abqproductname"><span class="keyclass gen-from-abqproductname">Products</span><span class="ph key std">Abaqus/Standard</span><span class="ph key exp">Abaqus/Explicit</span><span class="ph key cae">Abaqus/CAE</span></p></div></div>
+<div class="related-links"/><div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-arbitrary"><h2 xmlns="" class="topictitle2 title">Arbitrary, thin-walled, open and closed sections</h2>
+<div xmlns="" class="body conbody sma-topic-body"><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-arbitrary-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/><p>The arbitrary section type is provided to permit modeling of simple, arbitrary, thin-walled, open and closed sections. You specify the section by defining a series of points in the thin-walled cross-section of the beam; these points are then linked by straight line segments, each of which is integrated numerically along the axis of the section so that the section can be used together with nonlinear material behavior. An independent thickness is associated with each of the segments making up the arbitrary section.</p><p>Warping effects are included when an arbitrary section is used with open-section beam elements (available only in <span xmlns="http://www.w3.org/1999/xhtml" class="ph">Abaqus/Standard</span>).</p><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use either of the following options:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">ARBITRARY</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamgeneralsection.htm#simakey-r-beamgeneralsection" title="Specify a beam section when numerical integration over the section is not required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM GENERAL SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">ARBITRARY</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Arbitrary</span></pre>
+</div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-Restrictions-sma-topic1"><h3 xmlns="" class="topictitle3 title">Restrictions</h3>
+<div xmlns="" class="body conbody sma-topic-body">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="ul">
+<li class="li"><p xmlns="">An arbitrary section can be used only with beams in space (three-dimensional models).</p>
+</li>
+
+<li class="li"><p xmlns="">An arbitrary section should not be used to define closed sections with branches, multiply connected closed sections, or open sections with disconnected regions.</p>
+</li>
+
+<li class="li"><p xmlns="">For each individual segment of an arbitrary section there is no bending stiffness about the line joining the end points of the segment. Thus, an arbitrary section cannot be made up of only one segment.</p>
+</li>
+
+</ul>
+
+</div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic2"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>First, give the number of segments, the local coordinates of points <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">A</span> and <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">B</span>, and the thickness of the segment connecting these two vertices. Then, proceed by giving the local coordinates of point <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">C</span> and the thickness of the segment between points <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">B</span> and <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">C</span>, followed by the local coordinates of point <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">D</span> and the thickness of the segment between points <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">C</span> and <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">D</span>, and so on. An arbitrary section can contain as many segments as needed. All coordinates of section definition points are given in the local 1â2 axis system of the section.</p><p>The origin of the local 1â2 axis system is the beam node, and the position of this node used to define the section is arbitrary: it does not have to be the centroid.</p><div class="section" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic2__simaelm-c-beamcrosssectlib-s-DefiningAClosedSection-section1"><h4 class="sectiontitle title">Defining a closed section</h4>
+
+<p>A closed section is defined by making the starting and end points coincident. Only single-cell closed sections can be modeled accurately. Closed sections with fins (single branches attached to the cell) cannot be modeled with the capability in <span xmlns="http://www.w3.org/1999/xhtml" class="ph">Abaqus</span>.</p>
+</div>
+<div class="section" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic2__simaelm-c-beamcrosssectlib-s-DefiningAnArbitrarySectionWithDiscontinuousBranches-section2"><h4 class="sectiontitle title">Defining an arbitrary section with discontinuous branches</h4>
+
+<p>If the arbitrary section contains discontinuous sections (branches), a section with zero thickness should be used to return from the ending point of the branch to the starting point of the subsequent section. This zero thickness section should always coincide with a nonzero thickness section. For an example of an I-section defined using this method, see <a class="xref" href="../SIMACAEBMKRefMap/simabmk-c-beambuckle.htm" title="This example shows how Abaqus can be applied to the buckling analysis of beams.">Buckling analysis of beams</a>.</p>
+</div>
+</div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegration-sma-topic3"><h3 xmlns="" class="topictitle3 title">Default integration</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>A three-point Simpson integration scheme is used for each segment making up the section. For more detailed integration, specify several segments along each straight portion of the section.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic4"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>The vertices of the section.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsThroughBeamSectionsIntegratedDuringTheAnalysis-sma-topic5"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points through beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each vertex of the section (points <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">A</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">B</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">C</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">D</span> in the figure).</p></div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-BoxSection-sma-topic7"><p xmlns=""><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 xmlns="" class="topictitle2 title">Box section</h2>
+<div xmlns="" class="body conbody sma-topic-body"><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use one of the following options:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">BOX</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamgeneralsection.htm#simakey-r-beamgeneralsection" title="Specify a beam section when numerical integration over the section is not required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM GENERAL SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">BOX</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-framesection.htm#simakey-r-framesection" title="Specify a frame section."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">FRAME SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">BOX</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Box</span></pre>
+</div>
+<br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-box-int-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic7"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p><span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">a</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">b</span>, <span class="inlineequation"><math other="d1cad8370553b5a2b35ee8b659945dc1" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">1</mn></msub></math></span>, <span class="inlineequation"><math other="c152792e5d6763bbeee5a2fc401b740b" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">2</mn></msub></math></span>, <span class="inlineequation"><math other="561cdbcab8f10449027c406752c7b68d" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">3</mn></msub></math></span>, <span class="inlineequation"><math other="f9425894b49f87cdbd8036aeb5e29e22" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">4</mn></msub></math></span></p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegrationSimpson-sma-topic8"><h3 xmlns="" class="topictitle3 title">Default integration (Simpson)</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: 5 points</p><p>Beam in space: 5 points in each wall (16 total)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-NondefaultIntegrationInputForABeamSectionIntegratedDuringTheAnalysis-sma-topic9"><h3 xmlns="" class="topictitle3 title">Nondefault integration input for a beam section integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Give the number of points in each wall that is parallel to the 2-axis. This number must be odd and greater than or equal to three.</p><p>Beam in space: Give the number of points in each wall that is parallel to the 2-axis, then the number of points in each wall that is parallel to the 1-axis. Both numbers must be odd and greater than or equal to three.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic10"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Bottom and top (points 1 and 5 above for default integration).</p><p>Beam in space: 4 corners (points 1, 5, 9, and 13 above for default integration).</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsForBeamSectionsIntegratedDuringTheAnalysis-sma-topic11"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points for beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each of the points shown below.</p><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-box-tfv-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureInputForAFrameSection-sma-topic12"><h3 xmlns="" class="topictitle3 title">Temperature input for a frame section</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Constant temperature throughout the element cross-section is assumed; therefore, only one temperature value per node is required.</p></div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-CircularSection-sma-topic14"><p xmlns=""><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 xmlns="" class="topictitle2 title">Circular section</h2>
+<div xmlns="" class="body conbody sma-topic-body"><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use one of the following options:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">CIRC</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamgeneralsection.htm#simakey-r-beamgeneralsection" title="Specify a beam section when numerical integration over the section is not required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM GENERAL SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">CIRC</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-framesection.htm#simakey-r-framesection" title="Specify a frame section."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">FRAME SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">CIRC</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Circular</span></pre>
+</div>
+<br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-circ-int-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic14"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Radius</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegration-sma-topic15"><h3 xmlns="" class="topictitle3 title">Default integration</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: 5 points</p><p>Beam in space: 3 points radially, 8 circumferentially (17 total; trapezoidal rule). Integration point 1 is situated at the center of the beam and is used for output purposes only. It makes no contribution to the stiffness of the element; therefore, the integration point volume (<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqoutputvar">IVOL</span>) associated with this point is zero.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-NondefaultIntegrationInputForABeamSectionIntegratedDuringTheAnalysis-sma-topic16"><h3 xmlns="" class="topictitle3 title">Nondefault integration input for a beam section integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: A maximum of 9 points are permitted.</p><p>Beam in space: Give an odd number of points in the radial direction, then an even number of points in the circumferential direction.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic17"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Bottom and top (points 1 and 5 above for default integration).</p><p>Beam in space: On the intersection of the surface with the 1- and 2-axes (points 3, 7, 11, and 15 above for default integration).</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsForBeamSectionsIntegratedDuringTheAnalysis-sma-topic18"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points for beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each of the points shown below.</p><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-circ-tfv-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureInputForAFrameSection-sma-topic19"><h3 xmlns="" class="topictitle3 title">Temperature input for a frame section</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Constant temperature throughout the element cross-section is assumed; therefore, only one temperature value per node is required.</p></div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-HexagonalSection-sma-topic21"><p xmlns=""><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 xmlns="" class="topictitle2 title">Hexagonal section</h2>
+<div xmlns="" class="body conbody sma-topic-body"><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use either of the following options:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">HEX</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamgeneralsection.htm#simakey-r-beamgeneralsection" title="Specify a beam section when numerical integration over the section is not required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM GENERAL SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">HEX</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Hexagonal</span></pre>
+</div>
+<br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-hex-int-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic21"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p><span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">d</span> (circumscribing radius), <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">t</span> (wall thickness)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegrationSimpson-sma-topic22"><h3 xmlns="" class="topictitle3 title">Default integration (Simpson)</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: 5 points</p><p>Beam in space: 3 points in each wall segment (12 total)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-NondefaultIntegrationInputForABeamSectionIntegratedDuringTheAnalysis-sma-topic23"><h3 xmlns="" class="topictitle3 title">Nondefault integration input for a beam section integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Give the number of points along the section wall, moving in the second beam section axis direction. This number must be odd and greater than or equal to three.</p><p>Beam in space: Give the number of points in each wall segment. This number must be odd and greater than or equal to three.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic24"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Bottom and top (points 1 and 5 above for default integration).</p><p>Beam in space: Vertices (points 1, 3, 5, 7, 9, and 11 above for default integration).</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsForBeamSectionsIntegratedDuringTheAnalysis-sma-topic25"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points for beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each of the points shown below.</p><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-hex-tfv-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-Isection-sma-topic27"><p xmlns=""><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 xmlns="" class="topictitle2 title">I-section</h2>
+<div xmlns="" class="body conbody sma-topic-body"><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use one of the following options:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">I</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamgeneralsection.htm#simakey-r-beamgeneralsection" title="Specify a beam section when numerical integration over the section is not required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM GENERAL SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">I</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-framesection.htm#simakey-r-framesection" title="Specify a frame section."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">FRAME SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">I</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">I</span></pre>
+</div>
+<br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-i-int-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic27"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p><span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">l</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">h</span>, <span class="inlineequation"><math other="ff0e8133f3380ae1d11a0b20d15c4937" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">b</mi><mn class="- topic/foreign ">1</mn></msub></math></span>, <span class="inlineequation"><math other="fedd07c0e1dd1b209da3a207e307f4ef" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">b</mi><mn class="- topic/foreign ">2</mn></msub></math></span>, <span class="inlineequation"><math other="d1cad8370553b5a2b35ee8b659945dc1" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">1</mn></msub></math></span>, <span class="inlineequation"><math other="c152792e5d6763bbeee5a2fc401b740b" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">2</mn></msub></math></span>, <span class="inlineequation"><math other="561cdbcab8f10449027c406752c7b68d" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">3</mn></msub></math></span></p><p>By allowing you to specify <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">l</span>, the origin of the local cross-section axis can be placed anywhere on the symmetry line (the local 2-axis). In the above figures a negative value of <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">l</span> implies that the origin of the local cross-section axis is below the lower edge of the bottom flange, which may be needed when constraining a beam stiffener to a shell.</p><div class="section" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic27__simaelm-c-beamcrosssectlib-s-DefiningATsection-section3"><h4 class="sectiontitle title">Defining a T-section</h4>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(batch)">
+<p xmlns="">Set <span class="inlineequation"><math other="ff0e8133f3380ae1d11a0b20d15c4937" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">b</mi><mn class="- topic/foreign ">1</mn></msub></math></span> and <span class="inlineequation"><math other="d1cad8370553b5a2b35ee8b659945dc1" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">1</mn></msub></math></span> or <span class="inlineequation"><math other="fedd07c0e1dd1b209da3a207e307f4ef" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">b</mi><mn class="- topic/foreign ">2</mn></msub></math></span> and <span class="inlineequation"><math other="c152792e5d6763bbeee5a2fc401b740b" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">2</mn></msub></math></span> to zero to model a T-section.</p>
+</div>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">T</span></pre>
+</div>
+
+</div>
+</div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegrationSimpson-sma-topic28"><h3 xmlns="" class="topictitle3 title">Default integration (Simpson)</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: 5 points (one in each flange plus 3 in web)</p><p>Beam in space: 5 points in web, 5 in each flange (13 total)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-NondefaultIntegrationInputForABeamSectionIntegratedDuringTheAnalysis-sma-topic29"><h3 xmlns="" class="topictitle3 title">Nondefault integration input for a beam section integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Give the number of points in the second beam section axis direction. This number must be odd and greater than or equal to three.</p><p>Beam in space: Give the number of points in the lower flange first, then in the web, and then in the upper flange. These numbers must be odd and greater than or equal to three in each nonvanishing section.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic30"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Flanges (points 1 and 5 above for default integration).</p><p>Beam in space: Ends of flanges (points 1, 5, 9, and 13 above for default integration).</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsForBeamSectionsIntegratedDuringTheAnalysis-sma-topic31"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points for beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each of the points shown below.</p><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-i-tfv-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/><p>For a beam in space the temperature is first interpolated linearly through the flanges based on the temperature at points 1 and 2, and then 4 and 5, respectively. It is then interpolated parabolically through the web.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureInputForAFrameSection-sma-topic32"><h3 xmlns="" class="topictitle3 title">Temperature input for a frame section</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Constant temperature throughout the element cross-section is assumed; therefore, only one temperature value per node is required.</p></div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-Lsection-sma-topic34"><p xmlns=""><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 xmlns="" class="topictitle2 title">L-section</h2>
+<div xmlns="" class="body conbody sma-topic-body"><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use either of the following options:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">L</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamgeneralsection.htm#simakey-r-beamgeneralsection" title="Specify a beam section when numerical integration over the section is not required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM GENERAL SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">L</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">L</span></pre>
+</div>
+<br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-l-int-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic34"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p><span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">a</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">b</span>, <span class="inlineequation"><math other="d1cad8370553b5a2b35ee8b659945dc1" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">1</mn></msub></math></span>, <span class="inlineequation"><math other="c152792e5d6763bbeee5a2fc401b740b" class="- topic/foreign "><msub class="- topic/foreign "><mi class="- topic/foreign ">t</mi><mn class="- topic/foreign ">2</mn></msub></math></span></p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegrationSimpson-sma-topic35"><h3 xmlns="" class="topictitle3 title">Default integration (Simpson)</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: 5 points</p><p>Beam in space: 5 points in each flange (9 total)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-NondefaultIntegrationInputForABeamSectionIntegratedDuringTheAnalysis-sma-topic36"><h3 xmlns="" class="topictitle3 title">Nondefault integration input for a beam section integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Give the number of points in the second beam section axis direction. This number must be odd and greater than or equal to three.</p><p>Beam in space: Give the number of points in the first beam section axis direction, then the number of points in the second beam section axis direction. These numbers must be odd and greater than or equal to three.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic37"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Bottom and top (points 1 and 5 above for default integration).</p><p>Beam in space: End of flange along positive local 1-axis; section corner; end of flange along positive local 2-axis (points 1, 5, and 9 above for default integration).</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsForBeamSectionsIntegratedDuringTheAnalysis-sma-topic38"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points for beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each of the points shown below.</p><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-l-tfv-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-PipeSectionthinwalled-sma-topic40"><p xmlns=""><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 xmlns="" class="topictitle2 title">Pipe section (thin-walled)</h2>
+<div xmlns="" class="body conbody sma-topic-body"><p>Pipe cross-sections can be associated with beam, pipe, or frame elements.</p><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use one of the following options:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">PIPE</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamgeneralsection.htm#simakey-r-beamgeneralsection" title="Specify a beam section when numerical integration over the section is not required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM GENERAL SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">PIPE</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-framesection.htm#simakey-r-framesection" title="Specify a frame section."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">FRAME SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">PIPE</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Pipe</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Thin walled</span></pre>
+</div>
+<br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-pipe-int-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic40"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p><span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">r</span> (outside radius), <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">t</span> (wall thickness)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegration-sma-topic41"><h3 xmlns="" class="topictitle3 title">Default integration</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: 5 points (Simpson's rule)</p><p>Beam in space: 8 points (trapezoidal rule)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-NondefaultIntegrationInputForABeamSectionIntegratedDuringTheAnalysis-sma-topic42"><h3 xmlns="" class="topictitle3 title">Nondefault integration input for a beam section integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Give an odd number of points. This number must be greater than or equal to five.</p><p>Beam in space: Give an even number of points. This number must be greater than or equal to eight.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic43"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Bottom and top (points 1 and 5 above for default integration).</p><p>Beam in space: On the intersection of the surface with the 1- and 2-axes (points 1, 3, 5, and 7 above for default integration).</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsForBeamSectionsIntegratedDuringTheAnalysis-sma-topic44"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points for beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each of the points shown below.</p><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-pipe-tfv-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureInputForAFrameSection-sma-topic45"><h3 xmlns="" class="topictitle3 title">Temperature input for a frame section</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Constant temperature throughout the element cross-section is assumed; therefore, only one temperature value per node is required.</p></div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-PipeSectionthickwalled-sma-topic47"><p xmlns=""><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 xmlns="" class="topictitle2 title">Pipe section (thick-walled)</h2>
+<div xmlns="" class="body conbody sma-topic-body"><p>Thick-walled pipe cross-sections can be associated with beam or pipe elements.</p><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use the following option:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">THICK PIPE</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Pipe</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Thick walled</span></pre>
+</div>
+<br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-tpipe-int-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic47"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p><span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">r</span> (outside radius), <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">t</span> (wall thickness)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegration-sma-topic48"><h3 xmlns="" class="topictitle3 title">Default integration</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: 3 points radially (Simpson's rule), 5 circumferentially (trapezoidal rule)</p><p>Beam in space:  3 points radially (Simpson's rule), 8 circumferentially (trapezoidal rule)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-NondefaultIntegrationInputForABeamSectionIntegratedDuringTheAnalysis-sma-topic49"><h3 xmlns="" class="topictitle3 title">Nondefault integration input for a beam section integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Give an odd number of points in the radial direction, then an odd number of points (greater than or equal to 5) in the circumferential direction.</p><p>Beam in space: Give an odd number of points in the radial direction, then an even number of points (greater than or equal to 8) in the circumferential direction.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic50"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Bottom and top on the pipe midsurface (points 2 and 14 above for default integration).</p><p>Beam in space: On the intersection of the pipe midsurface with the 1- and 2-axes (points 2, 8, 14, and 20 above for default integration).</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsForBeamSectionsIntegratedDuringTheAnalysis-sma-topic51"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points for beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each of the points shown below.</p><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-tpipe-tfv-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-RectangularSection-sma-topic53"><p xmlns=""><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 xmlns="" class="topictitle2 title">Rectangular section</h2>
+<div xmlns="" class="body conbody sma-topic-body"><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use one of the following options:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">RECT</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamgeneralsection.htm#simakey-r-beamgeneralsection" title="Specify a beam section when numerical integration over the section is not required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM GENERAL SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">RECT</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-framesection.htm#simakey-r-framesection" title="Specify a frame section."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">FRAME SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">RECT</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Rectangular</span></pre>
+</div>
+<br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-rect-int-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic53"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p><span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">a</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">b</span></p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegrationSimpson-sma-topic54"><h3 xmlns="" class="topictitle3 title">Default integration (Simpson)</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: 5 points</p><p>Beam in space: 5 Ã 5 (25 total)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-NondefaultIntegrationInputForABeamSectionIntegratedDuringTheAnalysis-sma-topic55"><h3 xmlns="" class="topictitle3 title">Nondefault integration input for a beam section integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Give the number of points in the second beam section axis direction. This number must be odd and greater than or equal to five.</p><p>Beam in space: Give the number of points in the first beam section axis direction, then the number of points in the second beam section axis direction. These numbers must be odd and greater than or equal to five.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic56"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Bottom and top (points 1 and 5 above for default integration).</p><p>Beam in space: Corners (points 1, 5, 21, and 25 above for default integration).</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsForBeamSectionsIntegratedDuringTheAnalysis-sma-topic57"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points for beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each of the points shown below.</p><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-rect-tfv-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureInputForAFrameSection-sma-topic58"><h3 xmlns="" class="topictitle3 title">Temperature input for a frame section</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Constant temperature throughout the element cross-section is assumed; therefore, only one temperature value per node is required.</p></div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="nested1 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TrapezoidalSection-sma-topic60"><p xmlns=""><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 xmlns="" class="topictitle2 title">Trapezoidal section</h2>
+<div xmlns="" class="body conbody sma-topic-body"><div xmlns="http://www.w3.org/1999/xhtml" class="fignone fig usage"><p xmlns="">Input File Usage</p>
+<p xmlns="">Use either of the following options:</p>
+<pre xmlns="" class="codeblock"><a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamsection.htm#simakey-r-beamsection" title="Specify a beam section when numerical integration over the section is required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">TRAPEZOID</span>
+<a class="xref" href="../SIMACAEKEYRefMap/simakey-r-beamgeneralsection.htm#simakey-r-beamgeneralsection" title="Specify a beam section when numerical integration over the section is not required."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">BEAM GENERAL SECTION</span></a>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">SECTION</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">TRAPEZOID</span></pre>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="fignone usage abqinterface(interactive)"><p xmlns="">Abaqus/CAE Usage</p>
+<pre xmlns="" class="codeblock">Property module: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Create Profile</span>: <span xmlns="http://www.w3.org/1999/xhtml" class="ph guilabel">Trapezoidal</span></pre>
+</div>
+<br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-trap-int-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-GeometricInputData-sma-topic60"><h3 xmlns="" class="topictitle3 title">Geometric input data</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p><span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">a</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">b</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">c</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">d</span></p><p>By allowing you to specify <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">d</span>, the origin of the local cross-section axes can be placed anywhere on the symmetry line (the local 2-axis). In the above figures a negative value of <span xmlns="http://www.w3.org/1999/xhtml" class="ph mathterm">d</span> implies that the origin of the local cross-section axis is below the lower edge of the section. This may be needed when constraining a beam stiffener to a shell.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultIntegrationSimpson-sma-topic61"><h3 xmlns="" class="topictitle3 title">Default integration (Simpson)</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: 5 points</p><p>Beam in space: 5 Ã 5 (25 total)</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-NondefaultIntegrationInputForABeamSectionIntegratedDuringTheAnalysis-sma-topic62"><h3 xmlns="" class="topictitle3 title">Nondefault integration input for a beam section integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Give the number of points in the second beam section axis direction. This number must be odd and greater than or equal to five.</p><p>Beam in space: Give the number of points in the first beam section axis direction, then the number of points in the second beam section axis direction. These numbers must be odd and greater than or equal to five.</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-DefaultStressOutputPointsIfABeamSectionIntegratedDuringTheAnalysisIsUsed-sma-topic63"><h3 xmlns="" class="topictitle3 title">Default stress output points if a beam section integrated during the analysis is used</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Beam in a plane: Bottom and top (points 1 and 5 above for default integration).</p><p>Beam in space: Corners (points 1, 5, 21, and 25 above for default integration).</p></div>
+</div>
+<div class="nested2 topic concept sma-topic" id="simaelm-c-beamcrosssectlib-t-TemperatureAndFieldVariableInputAtSpecificPointsForBeamSectionsIntegratedDuringTheAnalysis-sma-topic64"><h3 xmlns="" class="topictitle3 title">Temperature and field variable input at specific points for beam sections integrated during the analysis</h3>
+<div xmlns="" class="body conbody sma-topic-body"><p>Give the value at each of the points shown below.</p><br xmlns="http://www.w3.org/1999/xhtml"/><img class="image" src="../SIMA3DXRefImages/ebeamlib-trap-tfv-pts-nls.png"/><br xmlns="http://www.w3.org/1999/xhtml"/></div>
+</div>
+</div>
+
+</td></tr></table><script xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../DSDocStats.js">/* */</script></body>
+</html>

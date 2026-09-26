@@ -1,0 +1,22 @@
+Analysis initiated from SIMULIA established products
+Abaqus JOB Solar_024_c125_rounded_r8
+Abaqus 2024
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 6 tokens from Flexnet server localhost.
+<9985 out of 9999 licenses remain available>.
+Begin Analysis Input File Processor
+9/26/2026 8:35:02 PM
+Run pre.exe
+9/26/2026 8:35:11 PM
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+9/26/2026 8:35:11 PM
+Run standard.exe
+9/26/2026 8:35:23 PM
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+9/26/2026 8:35:24 PM
+Run SMASimUtility.exe
+9/26/2026 8:35:24 PM
+End SIM Wrap-up
+Abaqus JOB Solar_024_c125_rounded_r8 COMPLETED

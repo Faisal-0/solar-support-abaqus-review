@@ -1,0 +1,30 @@
+from abaqus import *
+from abaqusConstants import *
+import visualization, json, os
+with open('metadata.json') as f: m=json.load(f)
+job=str(m['job'])
+openMdb(pathName=job+'.cae')
+v=session.viewports['Viewport: 1']
+v.setValues(width=250,height=145)
+v.setValues(displayedObject=mdb.models['SolarSupport'].rootAssembly)
+v.assemblyDisplay.setValues(mesh=ON,loads=ON,bcs=ON)
+v.assemblyDisplay.setValues(step='D_S_W')
+v.view.setValues(cameraPosition=(28000,-24000,15000),cameraTarget=(9074,1067,1400),cameraUpVector=(0,0,1))
+v.view.fitView()
+session.printOptions.setValues(vpDecorations=OFF)
+session.pngOptions.setValues(imageSize=(1800,1000))
+session.printToFile(fileName='abaqus_model_loads',format=PNG,canvasObjects=(v,))
+o=session.openOdb(name=job+'.odb')
+v.setValues(displayedObject=o)
+v.odbDisplay.setFrame(step='D_S_W',frame=-1)
+v.odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))
+v.odbDisplay.setPrimaryVariable(variableLabel='U',outputPosition=NODAL,refinement=(INVARIANT,'Magnitude'))
+v.odbDisplay.commonOptions.setValues(deformationScaling=UNIFORM,uniformScaleFactor=1.0)
+v.viewportAnnotationOptions.setValues(state=OFF,title=OFF,legendBox=OFF,
+    legendFont='-*-verdana-medium-r-normal-*-10-*-*-*-p-*-*-*',legendDecimalPlaces=2)
+v.view.setValues(cameraPosition=(28000,-24000,15000),cameraTarget=(9074,1067,1400),cameraUpVector=(0,0,1)); v.view.fitView()
+session.printToFile(fileName='abaqus_displacement',format=PNG,canvasObjects=(v,))
+v.odbDisplay.setPrimaryVariable(variableLabel='S',outputPosition=INTEGRATION_POINT,refinement=(COMPONENT,'S11'))
+session.printToFile(fileName='abaqus_S11',format=PNG,canvasObjects=(v,))
+o.close()
+print('RENDER_COMPLETE')

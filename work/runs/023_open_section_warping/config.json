@@ -1,0 +1,11 @@
+{
+  "run_id": "023_open_section_warping",
+  "mesh_size": 50,
+  "wind_pressure": 101.0,
+  "purlin_layout": "row_centres",
+  "dead_mode": "geometry",
+  "column_top_shift": 0.0,
+  "brace_front_drop": 125.0,
+  "element_type": "B31OS",
+  "warping": "fixed bases; independent across families; continuous same member"
+}

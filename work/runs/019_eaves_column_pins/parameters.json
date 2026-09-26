@@ -1,0 +1,17 @@
+{
+  "run_id": "019_eaves_column_pins",
+  "mesh_size": 50,
+  "wind_pressure": 101.0,
+  "purlin_layout": "custom",
+  "dead_mode": "geometry",
+  "column_top_shift": 0.0,
+  "brace_front_drop": 125.0,
+  "nlgeom": false,
+  "column_top_release": true,
+  "brace_end_release": false,
+  "release_code": "ALLM",
+  "purlin_stations": [
+    0.0,
+    4020.0
+  ]
+}

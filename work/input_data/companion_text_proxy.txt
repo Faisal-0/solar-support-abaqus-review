@@ -1,0 +1,145 @@
+Title: D0801031623.pdf
+
+URL Source: https://www.ijesi.org/papers/Vol(8)i1/Version-3/D0801031623.pdf
+
+Published Time: 2019-01-18T11:15:13.000Z
+
+Number of Pages: 8
+
+Markdown Content:
+International Journal of Engineering Science Invention (IJESI) ISSN (Online): 2319 – 6734, ISSN (Print): 2319 – 6726 www.ijesi.org ||Volume 8 Issue 01 Series. III || Jan 2019 || PP 16-23 
+
+www.ijesi.org 16 | Page 
+
+# A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-Eastern Turkey: An Investigation of Design Parameters under Extreme Weather Events 
+
+# Dr. G. Genc Celik 1, O. Celik 2
+
+> 1
+
+(Department of Civil Engineering, Cankaya University, Turkey) 
+
+> 2
+
+(BLA Yapi Muhendisligi A.S., Turkey) 
+
+Corresponding Author: Dr. G. Genc Celik 
+
+Abstract: One of the biggest demand of growing population, and cornerstone of the socio-economical growth of Nations, Energy is expected today to be Sustainable, Easy to Reach, Economical, and Continuous. As one of the most common and imperative contributors of this Clean Energy Future, Solar Energy in various forms takes a significant role whole around the World. And It shows a great potential particularly for Turkey which imports the majority of its Energy Resources - including Conventional Ones - from Out Sources, to decrease Energy Dependency on Out-of-country Bases and increase awareness to develop competition in New Technology and Production Fields. Based on a Structural Failure Case of Supporting Frames designed for Solar Photovoltaics (PV) in a Solar Power Plant from Turkey, this paper addresses the significance of Local and Site-Specific Investigation of Climate Data to properly decide on Structural Design Parameters -particularly Loads of Snow and Wind- by staying still comformable with National Codes and Standards. 
+
+Keywords-Solar Panel, Solar Power, Snow Load, Structural Design, Sustainable Energy 
+
+----------------------------------------------------------------------------------------------------------------------------- ----------Date of Submission: 05-01-2019 Date of acceptance: 22-01-2019 ----------------------------------------------------------------------------------------------------------------------------- ---------
+
+I. Introduction 
+
+Today economic prosperity and multi-dimensional (social, cultural, and even academic) growth of countries all around the world majorly depends on their fractions of energy production versus consumption and their ability to reach to a more sustainable, dependable, and comparatively cleaner to an extent but certainly affordable energy horizon line which could preferably hug its own resources, to provide independent and efficient supply. Solar, wind, hydrothermal, geothermal energy, biofuels, and water-originated ones could be listed among these alternative sources the benefits of which would most definitely vary spatially and temporally around the Globe. Fossil-based energy reserves (e.g., coal, oil and gas) which have still constituted approximately 80% [1] of the World‟s primary total energy consumption by the end of year 2016 (and have been therefore aggressively used in Heating & Cooling Sector, Transportation and Power-Generation Industries till now) on the other hand, started losing its charm across its beneficiary and non-combustive alternatives since (a) They may be qualified for altering air-quality and thus alleviating pollution and hence found to be risqué for climate-change through emission of Greenhouse Gases (Based on the International Energy Agency (IEA), the emissions from carbon-dioxide are projected to increase up to 36-43 Gigatonnes (Gt) per year based on different policy scenarios [2]) (b) There is a depletion in these readily available, combustion-based sources [3], (c)Drastic and most of the time unpredictable changes have been recorded in fossil fuel prices for the last two decades (For instance in 2017 one barrel of the Brent crude oil has been priced approximately half of the tag belonging to the period of 2011-2014 on average but still around two times more than that corresponding to the interval between 1996 and 2005 [1, Endnote 64 ]), (d) The population of the world has been rising up so fast, particularly in Asia and Africa (The world population is expected to grow to about 10 billion in 2100 [4] from 7.7 billion as of now according to the most recent United Nations estimates elaborated by Worldometers), (e)Due to additional need as explained in (d) energy demand started surpassing supply way more than expected. (Based on the International Energy Agency (IEA)‟s projections, the energy demand of the world is expected to reach about 17-18 billion tonne oil equivalents (t.o.e) by 2035 depending on different policy scenarios [2]). According to [2], humans may need to start a next-generation revolution in the industry which will quite possibly demand for new energy sources supposedly more affordable, effective, easily accessible and certainly sustainable. Although ongoing efforts to increase renewable capacity and developments on new technology towards relatively „Cleaner‟ Energy Systems have been geographically extensive, it was quite astonishing to observe from Figure 1 [2] that the percentage of „Renewable‟ Sources stayed constant over the past two decades from 1960s through 2010th. However based on the Renewables 2018 Global Status Report provided by the Community united for A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-Eastern … 
+
+www.ijesi.org 17 | Page 
+
+REN21 (Renewal Energy Policy Network for the 21 st Century), 2017 has been pretty remarkable due to the highest added number ever reached so far for annually generated and installed Renewable Global Power Capacity which was estimated to be around 178 GW [1]. This number raised Year 2016‟s capacity roughly by 9% [1, Endnote 182 ] and „Green Energy‟ contributed additionally to the overall net worldwide power capacity in the order of about 70% - that was approximately 7% higher than 2016‟s Statistics [1, Endnote 187 ]. Total „Clean‟ Power Capacity has been doubled (Figure 2 [1, Endnote 186 ]) within the interval spanning from 2007 to 2017. 
+
+Figure 1: Fractional Summations of Non-Renewable and Renewable Energy Sources around the world [2]. 
+
+Figure 2: Total global capacity of renewable power was approximately 2,195 GW by the end of the year 2017 which was estimated to be equivalent to 26.5% supply of global electricity [1]. Among all these above-mentioned sources, Solar Photovoltaic (PV) was surprisingly leading the small crowd by compromising about 55% of recently installed renewable power capacity [1, Endnote 183 ]. The capacity added by them has been significantly greater than that added by any other technology that generates power such as fossil fuels and nuclear power or even the combined capacity of both [1, Endnote 184 ]. As stated on the same report, from the global perspective installed Solar Photovoltaic Capacity was more than 98 GWdc (dc: Direct Current [1, Notes ]) which accounts for the installation of about 40,000 panels and more for every hour within the same year. The majority (75%) of these additional installations were incorporated to the global picture by the continent of Asia. More specifically China, United States, India, Japan and Turkey were the leading five markets which owned approximately 84% of total installed capacity in 2017 (Table 1 [1]). Turkey‟s installed capacity has reached a new record of 2.6 GW and doubled its total capacity more to the level of 3.4 GW by the end of this year [1, End note 65 ]. A number of reasons have driven this growth in the capacity and hence extensive spatial distribution of related technology, among which are: (a) Expansion of markets for both manufacturing and development industries of Solar PVs, particularly in Asia, (b) Significant competition in prices of Solar PVs which eventually delivered lowest recorded and easy to predict costs (c) Great motivation through future Renewable Energy targets of countries supported by new legislations/codes/initiatives and the urge triggered by climbing power demand of some nations for the development of innovations to increase energy efficiency [1] etc. 
+
+Table 1: Turkey was among the top five contributors for the annual investment provided for, net capacity A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-Eastern … 
+
+www.ijesi.org 18 | Page 
+
+additions, and production by Solar PV and Water Heating Capacity in 2017 [1] 
+
+Solar Energy Technologies, although they may show differences in materials used for production of certain tools (i.e. PV), in applied methods to develop production, in their mounting systems, and in technical background, could be categorized into three main groups: (a) Solar Thermal Power and Concentrating Solar Thermal Power (CSP) widely utilized in power plants, (b) Solar Photovoltaics (PVs) which are used in panels, (c) Solar Thermal Heating and Cooling [5]. Solar Water Heating, Solar Heating of Structures, Solar Distillation, Generation of Electricity from Solar Power, Solar Thermal Power, use of Solar Pumps for irrigation purposes, Solar Drying, and Solar Cooking could be listed as some of the major applications of Solar Energy today along with the calculators, radio, television and satellite receivers, radar and meteorological stations, and even mobile phones which may utilize Solar Energy [6,7] However in Turkey, the most common application of Sun-Generated Power lately could be seen in Solar Water Heating [8] as also observed from Table 1. The potential of Turkey for the capacity in Solar Energy is higher than any other countries in Europe but Spain due to its suitable geographic location [9]. According to [10] and [8] based on collected data for all regions of the country for Total Solar Energy and Time for Exposure to Sun, South-Eastern Region of Turkey has the highest potential whereas The Black Sea Region has the lowest. This study‟s roots are originated from the Investigation of a Structural Failure Case of Supporting Structures for Solar Panels due to unexpectedly higher Snow/Ice Load in one of the cities of South-Eastern Turkey that has been predicted to have a great potential for Solar Power. 
+
+1.1 Significance of the Study 
+
+When it comes to Structural Design of Supporting Structures for Solar Panels, many different factors should be clearly considered in the design stage of any structure type sitting on the ground. The target of the project, the optimization of the energy output which is desired to reach, site-specific details and relevant permit issues which are deemed to be necessary should be clarified beforehand without compromising from constructability. More specifically the classification of the site based on its location whether it could be in the wind zone, seismic zone, or snow zone should be identified and evaluated during Site-Selection Stage and afterwards. Environmental factors depending on climate properties of the site should hence be clearly reflected on structural loads particularly on Wind and Snow/Ice loads by using special design considerations, local weather data and even On-site Observations/Previously Collected Data/and Valuable Feedback from Regional Authorities so that the assumptions used in the analysis stay conformable along with the site and the code [11]. This paper addresses the significance of Site-Specific Local Climate issues that need to be carefully integrated into both Site Selection of Solar Arrays and Structural Design Stage of Mounting Structures for Solar Panels since Regional Codes and Standards may provide underestimated design values for applied loads. A Case Study of Structural Failure of Supporting Structures for Solar Panels due to heavy snow fall in a Power Plant located in South-Eastern Turkey will be investigated under the scope of this paper, to re-evaluate Design Loads mainly Snow/Ice and Wind Loads from the perspective of Site-Specific Observations and Collected Local Data. A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-Eastern … 
+
+www.ijesi.org 19 | Page 
+
+II. Case Study of Structural Failure from South-Eastern Turkey 
+
+Based on the information provided us through the “Export Report”-that also involves a lot of insufficient information and uncertainties in observations due to extensive coverage and significant rise of snow of 1.5-2.0 m from the ground level within the site-, there were reported failure instances two and three days consecutively after a continuous and intense snow precipitation case which started in the January of 2017 and lasted for four days. The construction of the before-mentioned Solar Power Plant was completed in 2015 and has been operational from then on a mild-sloped farm of around 60.000 m 2 to produce energy in one of the cities along South-Eastern Turkey. According to the same report presented to us, unfortunate damages (e.g., Fractures and breaks on the upper surfaces of PV Modules, or bending of Supporting Frames) were detected both in Solar PV Modules and their Supporting Frames and even in the Inverters despite all the efforts put by the team of about 20 people organized by the owner of the Plant itself and the local Municipality who tried to get rid of extensive snow piled up for these four days. Within the scope of this study, the failure and particularly its triggering mechanisms - more specifically from the perspective of Design Loads (Snow and Wind Loads) - are investigated only for „Supporting Frames‟ which are spaced every 2.5 m O.C. 
+
+2.1 Model Description 
+
+Structural Analysis is performed on a „Supporting Structure‟ in the form of a „Frame‟. A typical cross-section of the Supporting Frame for Solar PVs is shown on Figure 3. Structural System is composed of (a) CC120-4-21-60 Steel Columns, (b) CC140-4-18-47 Steel Beams, (c) CA120-50 Aluminum Purlins and (d) RHS60x3 Steel Braces. Along the frame profile, there are seven simply supported 120mmx50mm aluminum purlins to support Solar PV Panels. Three out of these purlins were already retrofitted by adding additional aluminum profiles into the purlins that could have been installed due to a previous incident (Figure 3). 
+
+Figure 3: Typical Cross Section of the Supporting System. Aluminum purlins numbered 1, 3, 5, and 7 were Standard Purlins and hence Non-Retrofitted; on the other hand numbers 2, 4, and 6 were Non-standard types and Previously Retrofitted as shown on the cross-section. 
+
+2.2 Applied Standards and Codes 
+
+Both for Structural Analysis and the Evaluation of the Results, the Standards and Codes listed below have been used: 
+
+i) TS 498, Design Loads for Buildings 
+
+ii) TS 648, Building Code for Steel Structures 
+
+iii) New Steel Code, Ministry of Environment and Urban Planning 
+
+2.3 Applied Loads 
+
+In this study due to the type of failure which is driven in the direction of the gravity, lateral loads are not investigated. Predicted loads applied to the Structural System could be simply categorized under four groups and are shown on Table 2 provided below. Dead Load a is calculated based on the value of 20 kg of weight for each panel. The weight for each structural element (Column/Beam/Purlin/Brace) is automatically calculated by the 3-D Finite Element Program itself (SAP 2000). For Snow Load, the value written in the first column b of Table 2 is obtained through the Sections 7 and 8 of TS498, based on the region where the city is located and associated elevation( Table 4 from TS498). The value in the second column c belonging to Snow Load Category of Table 2 is on the other hand obtained from Registered Data of Turkish State Meteorological Service (Table 3). The highest snow level of 37 cm recorded for this site during the period of time between 1929 A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-Eastern … 
+
+www.ijesi.org 20 | Page 
+
+through 2017 is used together with the density of the snow assumed to be compacted with wind of 400 kg/m 3.First column of Wind Load d on another note is determined based on the Information from Section 11 of TS498 that particularly provides wind velocities depending on the elevation of the site. Wind speed from this section is picked as 100.8 km/hr based on the elevation of the site. Whereas the second column of Wind Load Category e is predicted through the statistically recorded values given in Table 3 provided by Turkish State Meteorological Service. The highest wind speed ever recorded within that interval of time between 1929 and 2017 has been 168 km/hr. After a careful analysis of site-specific pictures presented on the Expert Report from that period zone of consecutive failures that happened simultaneously with heavy snow fall, expected loads have been predicted to be much greater than those assumed separately by Turkish Standards and those formally reported by Turkish State Meteorological Service for a long period of time. Under the light of this Information, Snow and Wind Loads are re-calculated and given below in their third columns of each Load Category. For instance snow thickness accumulated on Solar PV System is predicted to be at least about 80 cm by using and scaling the pictures from the Expert Report (Figure 4). Ice Load f that has been added on top of Snow Load on a separate note is obtained again from Section 10 of TS498 by using an estimated thickness of 3 cm of ice and the elevation of the site from the sea level since the snow deposition was continuous through four days. 
+
+Table 2: Loads Applied on the Structural System        
+
+> Dead Load (G) a
+> 0.125 kN/m 2(For each panel)
+> Snow Load (S) TS 498 bMeteorological (Weather) Data cSite-Specific Observation Data
+> 1.49 kN/m 21.45 kN/m 23.14 kN/m 2
+> Ice Load f
+> 0.21 kN/m 2
+> Wind Load (W) TS 498 dMeteorological (Weather) Data e
+> 0.7 kN/m 21.0 kN/m 2
+
+Table 3: Registered Weather Data between 1929 through 2017 by Turkish State Meteorological Service 
+
+Figure 4: Pictures from the Site Taken on the day of Heavy Snow Fall and on following days after. After all relevant loads have been considered and picked accordingly, Load Factors and Load Combinations are determined based on Section 5.3.2 of New Steel Code as follows and reported in Table 4 below: A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-Eastern … 
+
+www.ijesi.org 21 | Page 
+
+Table 4: Load Factors and Load Combinations for the Structural System  
+
+> STRENGTH LOAD COMBINATIONS SERVICE LOAD COMBINATIONS 1.0 G 1.0 G + 1.0 S 1.0 G + 1.0 W 1.0 G + 0.75 S + 0.75 W 0.6 G + 1.0 W 1.0 G 1.0 G + 1.0 S 0.6 G + 1.0 W G: Self Weight of Structural Elements Plus PV Panel Weight S: Snow Load W: Wind Load
+
+2.4 Structural Analysis and Calculations 
+
+Selected Loads - Dead, Snow, and Wind Load - are imposed on a 3-D model of the Structural System (Figure 5) constructed by using a 3-D Finite-Element Program called SAP2000 to perform a Stiffness Analysis, to Design and to check Deflection Limits for two scenarios: (a) By using Associated Turkish Standards/Codes and Meteorologically Reported Data and (b) By using Information (Pictures and observations) provided us by the Expert Report. 
+
+Figure 5: 3-D Model of A Supporting Frame for Solar PVs 
+
+2.5 Results of Stiffness Analysis 
+
+Within the scope of this study, as explained above Strength Design and Deflection Checks of Solar Panel Supporting System which consist of Steel Column, Beam and Aluminum Purlin Elements are conducted for two scenarios: (a) By using Loads predicted from Relevant Turkish (National) Standards/Codes and Registered Meteorological Data (b) By using the Information (Pictures/Observations/Rough Measurements) from the Expert Report concerning particularly Snow Load to reflect realistic, site-specific load values After the Stiffness Analysis has been performed and the results are obtained, it is concluded that: 
+
+ For the scenario (a) described above, Structural Elements are working at 60% of Demand/Capacity Ratio 
+
+##  For the scenario (b), this value is climbing up to 130% of Demand/Capacity Ratio depicted for Structural Elements due to extreme snow precipitation incident that occurred in the January of 2017 and lasted for more than four days. 
+
+Table 9 shows a final comparison of Analysis Results obtained for Strength Design and Deflection Values of Structural Elements based on two scenarios explained within the context of the Structural Analysis and Calculations (Section 2.4 of this paper). The picture on the Table clearly points out two critical outcomes that need to be carefully investigated during Structural Design Stages of Supporting Structures for Solar PVs on the ground, derived from a Case Study of Failure from South-Eastern Turkey: 1) Although under appliedloads predicted through Local (National) Standards and Codes, a Structural System may seem to be structurally stable and sound, local weather conditions particularly at remote locations far from commercial areas, which are prone to excessive accumulation of Snow and hence Ice A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-Eastern … 
+
+www.ijesi.org 22 | Page 
+
+for a long time, especially during Winter Time should be thoroughly assessed, in compliance with Relevant Codes and Standards. 
+
+2) Local (National) Standards and Codes should be applied with caution and should be compatible with selected Site Characteristics since they may provide relatively lower estimates for Relevant Load Values (Snow in this case) than that could have been expected in the real case scenario. To avoid these cases occasional site visits, previous reports depicting climate issues of the site from local agencies or offices should be taken into consideration in the stages of Design Process. 
+
+Table 9: Summary Table of Final Results Reflecting Strength Design and Deflection Ratios for Two Scenarios Explained above 
+
+II. Conclusions and Discussions 
+
+In Today‟s World Renewable Energy Sources (Solar, Wind, Biomass, Hydraulic and Geothermal to name a few) should constitute a considerable fraction of Total Energy Produced Conventionally and Non-Conventionally for all countries seeking an economically stable future ideally dependent on its own Primary and Secondary Resources. Solar Energy as being one of the biggest contributors for Renewable - Non-conventional -Fraction has the highest potential in Turkey for future projections [12 ]. Among various forms of application of Sun as a powerful source, Solar Power Plants composed of Solar PV arrays mounted on certain Supporting Structures play a considerable part to generate Electricity, particularly located on extensive farms at remote locations in rural zones, most of the time away from Residential Areas. Therefore certain critical design issues related to Weather Circumstances need to be addressed starting from the Period of Site-Selection till Structural Design for mounting Support Structures on the ground. These distinct Climate Issues should be reflected on particularly Design Loads to perform a prudent and efficient at cost Structural Analysis for Supporting Structures. In areas at which a great amount of snow is expected to fall and pile up on Solar Arrays - as analyzed within the context of this Case Study from South-Eastern Turkey - a few precautions - regardless of Structural Design Parameters and Criteria that could have been taken to avoid possible failures - may include some specifications such as the height of the array, the tilt angle of arrays, or some material specifications concerning PV modules - that may allow higher Design Snow Loads to be applied without compromising from the Serviceability [13]. However within the scope of this study, the emphasis is put on „Selecting Site-Specific, and Realistic Design Loads - particularly Snow and Wind Load - to be applied on Structural Systems in compliance with the code that should possibly yield Cost-Effective and Safe Design Conditions in the long run, during the entire life time of Solar Panels. Based on a Report called „Utility Scale Solar Power Plants (A guide for Developers and Investors)‟ written by Alasdair Miller and Ben Lumby for the International Finance Corporation (IFC) in 2012 [14], it is not enough for a selected site to have an excellent solar resource base to be picked as a candidate but it should not either suffer from extreme weather events such as: “Flooding”, “High Wind Speeds”, “Extreme Temperatures” and “Snow” that may impose unwanted damages or downtime in continuous energy production. And more specifically if a site is Snow-Prone - as in this Case Study-, additional overburden created by extra Snow Fall on Supporting Structures, and associated Ice Load together with unexpectedly high Wind Loads if there is any -that may seem to surpass Design Specifications- should be carefully evaluated and picked not solely based on National/Local Standards and Codes but also on available Site-Specific Detailed Information/ Observations/ Data/ Previous Reports/Maps that might be collected from Regional and Local Authorities/Agencies. This study A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-Eastern … 
+
+www.ijesi.org 23 | Page 
+
+is found to support this critical need in Structural Design Process not only to create a reliable “Design Strategy” for properly engineered Structural Systems but also not to face reduced annual energy yield meanwhile for a successful project. 
+
+References 
+
+[1]. REN21 Secretariat, Renewables 2018 Global Status Report provided by the Community united for REN21 (Renewal Energy Policy Network for the 21st Century) (Paris: ISBN 978-3-9818911-3-3). [2]. S. Chu and A. Majumdar, Opportunities and Challenges for a Sustainable Energy Future, Nature, 488, 2012, 294-303. [3]. M. Hook and X. Tang, Depletion of Fossil Fuels and Antropogenic Climate Change - A Review, Energy Policy, 52, 2013, 797-809 . [4]. R. Lee, The Outlook for Population Growth, Science, 333, 2011, 569-573. [5]. https://www.energy.gov/eere/solar/articles/solar-energy-technology-basics [6]. M. Gunes, Fotovoltaik Sistemin Sagladigi Elektrik Enerjisi Ile Calısan Bir Uygulama Sisteminin Tasarimi, MS Thesis, Firat Universitesi, 1999. [7]. M.T. Gencoglu and M. Cebeci, Turkiye‟nin Enerji Kaynaklari Arasinda Gunes Enerjisinin Yeri ve Onemi, Turkiye 8, 2011, 63-73. [8]. N. Altintop and D. Erdemir, Dunyada ve Turkiye‟de Gunes Enerjisi ile Ilgili Gelismeler, Muhendis ve Makine Dergisi, 54(639), 2013, 69-77. [9]. E. Koc and K. Kaya, Enerji Kaynaklari-Yenilenebilir Enerji Durumu, Muhendis ve Makine Dergisi, 56(668), 2015, 36-47. [10]. F. Dincer, Turkiye‟de Gunes Enerjisinden Elektrik Uretimi Potansiyeli-Ekonomik Analizi ve AB Ulkeleri ile Karsilastirmali Degerlendirme, KSU Muhendislik Dergisi, 14(1), 2011, 8-17. [11]. https://solarprofessional.com/articles/design-installation/ground-mounted-pv#.XBzDxVwzbDc [12]. O. Taskin and T. Koruyucu, Kahramanmaras Ili Gunes Enerjisi Potansiyeli ve Kullanim Olanaklari, KSU Doğa Bil. Derg., 17(4), 2014, 12-16. [13]. https://solarprofessional.com/articles/design-installation/ground-mounted pv/page/0/2#.XDcXDVUzZ1s [14]. A. Miller and B. Lumby, Utility Scale Solar Power Plants (A Guide for Developers and Investors) (New Delhi, India, 2012). 
+
+Dr. G. Genc Celik" A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-Eastern Turkey: An Investigation of Design Parameters under Extreme Weather Events" International Journal Of Engineering Science Invention (Ijesi), Vol. 08, No. 01, 2019, Pp 16-23

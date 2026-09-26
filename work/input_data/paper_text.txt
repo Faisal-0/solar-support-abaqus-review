@@ -1,0 +1,691 @@
+=== PAGE 1 ===
+ 
+ 
+ 
+Design and Analysis of Steel Support Structures Used in Photovoltaic (PV) Solar 
+Panels (SPs): A Case Study in Turkey  
+ 
+ 
+Cigdem AVCI-KARATAS* 
+Department of Transportation Engineering, Faculty of Engineering, Yalova University, Yalova, 77200, Turkey 
+ 
+*Corresponding author e-mail: cigdem.karatas@yalova.edu.tr 
+ 
+ 
+Abstract 
+As one of the most common and imperative contributing factors to clean energy aspect, solar energy takes a 
+significant role around the whole world. Among neighboring countries regarding the energy sources, Turkey 
+has a relatively more potential for solar energy to decrease its energy dependence to the other countries and to 
+increase awareness for sustainable, easily reachable, economical and continuous energy use. In the 
+photovoltaic (PV) solar power plant projects, PV solar panel (SP) support structure is one of the main elements 
+and limited numerical studies exist on PVSP ground mounting steel frames to be a research gap that has not 
+be addressed adequately in the literature. In this paper, aiming to provide a contribution to this gap, a PVSP 
+steel support structure and its key design parameters, calculation method, and finite element analysis (FEA) 
+detailed with a case study on a solar power plant in Turkey are described to obtain actual demand of 
+environmental effect like loads wind, snow, and seismic loads conforming with Turkish codes and standards. 
+FEA is done by using load calculation with creating model in SAP2000 and followed by analysis to determine 
+maximum von Mises stress distribution on the PVSP steel support structure.  
+ 
+Keywords: Photovoltaic (PV), Solar Panel (SP), Steel, Support Structure, Structural Design, Finite Element 
+Analysis (FEA)  
+ 
+1. Introduction 
+ 
+Solar energy is a hopeful, sustainable, new kind green energy which is never-ending, independent and plentiful. 
+Solar panels (SPs) can be various cross-sections (e.g., square, rectangle) and sizes but their main purpose is to 
+convert the sun light in order to make electricity. Normally, solar power systems can be separated into three 
+used groups like (i) concentrating solar power, (ii) solar-thermal absorbers and (iii) photovoltaic (PV) SPs. 
+PVSPs directly transform solar to electrical energy using semiconductor materials which can produce free 
+electrons utilizing of sunlight energy (Parida et al., 2011). PVSPs have many usage fields, such as solar home 
+systems, PV water pumping, remote building, solar cars and airplanes, satellites and space vehicles, etc 
+(Kalogirou, 2004). Such a wide range of application fields increase demand for PVSPs due to the electrical 
+power generation through PV transformation gives clean, safe and efficient way of supplying energy. The 
+developments of current technology for PVSP field significantly vary, especially for installation methods and 
+mounting locations (e.g., ground, roof, or integrated with the building envelope) affected by wind, snow and 
+seismic loads differently. Experimental and numerical studies have been conducted by several researchers to 
+show the effectiveness of different types SPs. Mihailidis et al. (2009) proposed a finite element analysis (FEA) 
+of two different design approaches of SP support structures such as fixed support and adjustable support 
+structure design. Cao et al. (2013) performed a wind tunnel experiment to evaluate wind loads on SPs mounted 
+on the flat roofs. Lin et al. (2013) proposed a FEA approach to find the structural deformation and 
+misalignment of solar radiation using the effects of self-weight and wind loads. The result shows that this 
+technique was found to be sufficiently reliable to design PV systems. Aly and Bitsuamlak (2013) carried out 
+experimental tests on large civil engineering structure models with geometric scale of 1:500 to 1:100 to 
+produce an aerodynamic model of SP subjected to wind load and mounted on ground. Mathew et. al. (2013) 
+studied on design and stability analysis of SP support structure made of mild steel. The result shows that the 
+SP support structure can able to sustain a wind load with velocity 55𝑚𝑠−1. Baetu et al. (2013) presented 
+numerical simulations performed in ANSYS for analysis of wind action on SPs located on a flat roof with and 
+without parapets to understand the location of mounting of SP support structure affects the SPs’ performance. 
+In recent years, the design of PVSP support system has become the focus of attention with the popularization 
+and increasing application fields.  
+
+=== PAGE 2 ===
+2 
+ 
+The PVSPs are typically installed on aluminum or galvanized/ painted/ stainless steel support structures (the 
+ground mounting steel frame). The construction of solar energy systems, mainly steel materials have a 
+favorable custom in structural engineering applications, but the aluminum alloy is increasingly being used due 
+to its characteristics such as lightweight, high strength-to-weight ratio, good corrosion resistance, durability, 
+recyclability properties, high strength similar to steel and excellent formability (e.g., extrusion) (Girard et al., 
+2016; Drury et al., 2014; Hernandez et al., 2015; Avci-Karatas and Celik, 2017; Avci-Karatas et.al., 2018). 
+Wang et al. (2018) studied on the actual project case design and optimization of fixed PV support structure 
+using Japanese Industrial Standard based on SAP2000. 
+ 
+It has been observed that PVSP is one of the fastest growing industries in the world. Turkey sits in a favorable 
+status in the middle east and southeast Europe regarding solar energy potential (Dawood, 2016). 7.5𝑇𝑊ℎ was 
+generated in 2018 using solar power which was 2.5% of Turkey's electricity (Ministry of Energy and Natural 
+Resources of Turkey, 2019). Installed PVSP capacity was 5𝐺𝑊, with the energy ministry planning to have 
+another 10𝐺𝑊 installed in the 2020s (OECD, 2019). Since the usage of solar energy are more attractive to 
+investors and have recently become the focus of considerable interest, the design of PVSP support structures 
+has merit in structural engineering applications. So far, to knowledge of the author (Avci-Karatas, 2019a; Avci-
+Karatas et al., 2019b; Avci-Karatas and Celik, 2019c) limited guidance exists to help the engineers to design 
+of PVSP steel support structure using Turkish codes and standards in the current technical literature. This 
+consideration motivated the research presented in this paper to search, design and analysis of PVSP steel 
+support structure under the wind, snow, and seismic loads specified according to Turkish codes and standards 
+to make a contribution to a gap in a relatively recent development in the field of PVSP technology for 
+developers and investors. For this purpose, an example on a PV solar power plant project in Turkey was 
+considered to provide quotative data to describe the results for the currently designed, modeled and analyzed 
+of the PVSP support structures. SAP2000 v14 (2009) software was used in this paper to carry out the design, 
+FEA and research on the bearing capacity of the PV support structure under various load conditions using 
+Turkish codes and standards. 
+ 
+ 
+2. Description of PVSP Steel Support  
+ 
+When it comes to structural design of support structure for SPs, many different factors should be clearly 
+considered in the design stage of support structure sitting on the ground. The local and site-specific 
+investigation of climate data are important to properly decide on structural design parameters for PVSP steel 
+support structures (Celik and Celik, 2019).  
+ 
+The power plant project with 500𝑘𝑊𝑝 total kilowatt-peak capacity is in Siirt province of southeastern Turkey. 
+The system will generate 683,427kWh of solar energy in one year. The mounting angle of PVSPs support is 
+𝛼= 250. Totally, 44 PVSPs having the size of 1650𝑚𝑚𝑥990𝑚𝑚𝑥40𝑚𝑚 are used as 4 rows and 11 columns.  
+ 
+3. Materials  
+ 
+With the 4 rows and 11 columns PVSPs, the ground mounting steel frame has five basic bearing members 
+named as “rail” for PVSP mounting, “beam”, column”, “purlin”, and “brace”, respectively. Figure 1 shows the 
+general views of PVSP steel support structure. The basic design parameters and material properties are 
+summarized in Table 1 and Table 2, respectively. The profiles are designated as P1, P2, P3, P4, P5 and P6 for 
+rail, beam, front column, back column, purlin and brace, respectively (Figure 1 and Table 2). The total length 
+and width of PVSP frame are denoted as (𝐿) and (𝑊𝐹) in the Table 1. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PAGE 3 ===
+3 
+Table 1. The design parameters of PVSP ground mounting steel frame 
+Parameters 
+Values 
+PVSP dimensions (mm) 
+1650x990x40 
+PVSP weight (kg) 
+18.5 
+Mounting angle of PVSP 𝛼 (degree) 
+250 
+PVSP average height from the ground (mm) 
+~1500 
+Row number of PVSP 
+4 
+Column number of PVSP 
+11 
+Number and length of rail profiles (mm) 
+22x4040 
+Number and total length of beam profiles (mm) 
+5x4020 
+Width of frame, 𝑊𝐹 
+2134.36 
+Number of supported span and total length of frame, 𝐿 (mm) 
+4x4537=18148 
+Total covered area of PVSP, 𝐴𝑃𝑉𝑆𝑃 (m2) 
+4.040x18.148=73.32 
+Total height of front/short column (mm) 
+2250 
+Total height of back/long column (mm) 
+3250 
+Height of front column profiles above ground level (mm) 
+1052 
+Height of front column profiles below ground level (mm) 
+1198 
+Height of back column profiles above ground level (mm) 
+2047 
+Height of back column profiles below ground level (mm) 
+1203 
+ 
+
+=== PAGE 4 ===
+4 
+ 
+Figure 1. General front elevation view of PVSP ground mounting steel frame 
+ 
+44 PVSPs were installed on the total covered area, 𝐴𝑃𝑉𝑆𝑃 which supported on 10 columns. High strength low 
+carbon steels corresponding to the Turkish European Standards TS EN 10279 (2005) was noted as material 
+quality in the design of PVSP steel frame. C-channel size of 125x62.5x25x4mm profiles made of galvanized 
+cold-rolling S235JR (ASTM A283C) and S355JR (ASTM A441) steel material for the column and beam were 
+considered, respectively.  
+ 
+In addition, C-channel size of 100x50x20x4mm and 50x25x5mm profiles made of galvanized cold-rolling 
+S235JR used in purlin and brace sections. For the rails, S235JR type of steel material with a private producing 
+shape was selected. Based on the galvanized cold-rolling steel S235JR that has an ultimate strength, 𝜎𝑢, 340 −
+470𝑁/𝑚𝑚2, and yield strength, 𝜎𝑎, 235𝑁/𝑚𝑚2, the allowable stress limit was defined as 144𝑁/𝑚𝑚2. The 
+allowed stress limit for S355JR with 𝜎𝑢= 470 −630𝑁/𝑚𝑚2, 𝜎𝑎= 355𝑁/𝑚𝑚2, was specified as 
+212𝑁/𝑚𝑚2 for the design calculations. The nominal diameter of metric steel bolts is 18𝑚𝑚 (M18) made 
+from grade 8.8 material quality with 𝜎𝑢= 800𝑁/𝑚𝑚2, 𝜎𝑎= 640𝑁/𝑚𝑚2 according to TS EN 1993-1-8 
+(1993), and were used in the connection between beam and column. Furthermore, M16-8.8 flange purlin bolts 
+were used in the connection of purlins. M18-8.8 bolts were selected for the connections between column and 
+brace. 
+
+=== PAGE 5 ===
+5 
+ 
+Table 2. Material and geometrical properties of profiles used in PVSP steel frame 
+Designation 
+of profiles 
+Profile name 
+Profile type 
+Material 
+grade 
+𝒉 (mm) 𝒃 (mm) 𝒕 (mm) Weight (N) 
+P1 
+Rail 
+Private design 
+S235JR 
+61 
+66 
+2.50 
+2765 
+P2 
+Beam 
+C-channel 
+125x62.5x25x4 
+S355JR 
+125 
+62.5 
+4 
+8584 
+P3 
+Front Column 
+S235JR 
+452 
+P4 
+Back Column 
+S235JR 
+880 
+P5 
+Purlin 
+C-channel 
+100x50x20x4 
+S235JR 
+100 
+50 
+4 
+150 
+P6 
+Brace 
+C-channel 
+50x25x5 
+S235JR 
+50 
+25 
+5 
+193 
+ 
+4. Codes and Standards  
+ 
+The standards used in the PVSPs steel structure project are the specification for buildings to be built in seismic 
+zones (Turkey Earthquake Codes (TEC), 2007) (here named as Earthquake Regulation-2007) to find 
+earthquake strength, TS 498 (1997) for the calculation values of wind and snow loads. 2019 Building 
+Earthquake Code of Turkey has improved the previous version published in 2007 by expanding its coverage. 
+Note that Earthquake Regulation-2007 was used here, as this study preceded the publication of the latest 
+earthquake document of 2019 Building Earthquake Code of Turkey. Turkish steel design code TS 648 (1982) 
+was used for the calculation and construction rules of steel structure. The principles of design of buildings, 
+material intensity taken from TS ISO 9194 (1997). According to the used standards for design of PVSP support 
+structure, combined with the basic parameters of the project, the typical dead load (D), wind load (𝑊), snow 
+load (𝑆), and seismic load (𝐸) of PVSP support structure were determined and presented in the subsequent 
+sections. 
+ 
+5. Determining Design Loads and Load Combinations  
+ 
+The load of PVSP consisted of two parts such as (i) the dead load (D) included the weight of total PVSP (𝑫𝟏), 
+rail weight (𝑫𝟐), beam (𝑫𝟑), purlin (𝑫𝟒), bolts (𝑫𝟓), columns above ground level (𝑫𝟔) (ii) the live load 
+included wind load (𝑾), snow load (𝑺), and seismic load (𝑬). The design loads and load combinations were 
+explained in this section.  
+ 
+5.1. Determination of Wind Loads (W) 
+ 
+The procedures for TS 498 (TS 498-Chapter 11 – Wind Load Calculations) wind load procedure is briefly described 
+below. Quantity of equivalent wind load is an area load which changes according to height of the structure. The 
+design wind pressure loads 𝑞𝑏 amounts are defined as 0.8𝑞𝑏 for pushing and 0.4𝑞𝑏 for suction. The wind creates 
+1.2𝑞𝑏 load on the top of structure in opposite direction of gravity if the angle of the roof with the horizontal plane 
+is zero. Effective wind velocity, 𝑣𝑏, proposed by TS 498, is obtained as 38.9𝑚/𝑠. The PVSP is placed at an average 
+height of 1.5𝑚 from the ground level. The air density,  𝜌 is determined as 1.25𝑘𝑔/𝑚3. As per TS 498 in Section 
+11.3, the design wind pressure can be obtained by using Eq. (1). The wind pressure coefficients incidence on top 
+PVSP frame with the mounting angle,  𝛼= 250 are calculated and tabulated in Table 3.  
+ 
+2
+1
+2
+b
+b
+q
+v
+
+=
+                                                                                                                                                                                  (1) 
+ 
+ 
+ 
+ 
+
+=== PAGE 6 ===
+6 
+Table 3. Design wind pressure coefficients and wind loads on PVSP frame 
+Wind pushing/suction effect of PVSP 
+qb (N/m2) 
+(1.2Sinα-0.4)qb 
+101 
+-0.4qb 
+-378 
+0.8qb 
+756 
+ 
+5.2. Determination of Snow Loads (S) 
+ 
+Snowfall is unequally distributed in Turkey. Some regions should be adaptable to an additional challenge, namely 
+the large masses of snowfall. The snow loading depends on the snow load zone, where the PVSP system will be 
+installed. Due to the settling of snow on the panels, the solar modules and the mounting system can be highly loaded.  
+The standard TS 498 (1999) (Chapter 7 – Snow Load Calculations) and TS EN 1991-1-3 (2007) include the methods 
+of calculation for the snow load. Also, the calculation formulas for the snow load on pitched roofs are found in these 
+standards. According to TS 498, the design ground snow load, 𝑃𝑘0, depends on the geographical location and the 
+altitude of the site being considered. Due to the site of PV power plant is located on the land in Siirt province of 
+south-eastern Turkey, design ground snow load at this site is taken as Zone II as per TS 498. The height of power 
+plant site is accepted as 1325𝑚 above sea level. Additionally, in TS 498, the design roof snow load is calculated 
+as the product of the design ground snow load and a conversion factor that depends on the roof slope. The snow 
+loads applied vertically on the top of PVSP and the design ground snow load, 𝑃𝑘0 is obtained as 880𝑁/𝑚2. This 
+load was uniformly distributed on the whole roof structure. 
+ 
+5.3. Determination of Seismic Loads (E) 
+ 
+Earthquake Regulation-2019 has improved the previous version published in 2007 by expanding its coverage. Note 
+that Earthquake Regulation-2007 was used here, as this study preceded the publication of the latest earthquake 
+document of Earthquake Regulation-2019. There are no differences between these two versions of Earthquake 
+Regulation standards for earthquake zonation map of Siirt province. The earthquake hazard of Siirt province is 
+considered in the first seismic zone. Determination of the local site soil conditions of PVSP support to be 
+constructed based on the soil investigations was determined primarily in accordance with the rules and 
+requirements of Earthquake regulation-2007. 𝑍1 local site class for Siirt province was defined in accordance 
+with the definition in Earthquake Regulation-2007. The building natural vibration period, 𝑇 was obtained for the 
+first mode shape as 0.178055𝑠𝑒𝑐 from SAP2000. The spectral acceleration coefficient, 𝐴(𝑇), which shall be 
+considered as the basis for the determination of seismic loads is given by Eq. (2). The spectrum coefficient, 𝑆(𝑇), 
+seeming in Eq. (2) can be determined by Eq. (3), based on the local site conditions.  
+ 
+0
+( )
+( )
+A T
+A
+I S T
+=
+
+                                                                                                                                              (2) 
+ 
+( )
+1 1.5
+A
+T
+S T
+T
+= +
+ 
+(0
+)
+A
+T
+T
+
+
+ 
+                                                (3) 
+( )
+2.5
+S T =
+ 
+(
+)
+A
+B
+T
+T
+T
+
+
+ 
+0.8
+( )
+2.5
+B
+T
+S T
+T
+
+
+=
+
+
+
+
+ 
+(
+)
+B
+T
+T
+
+ 
+ 
+Here, since the spectrum characteristic periods, 𝑇𝐴 and 𝑇𝐵 are specified depending on 𝑍1 local site classes as               
+𝑇𝐴= 0.10𝑠𝑒𝑐 and 𝑇𝐵= 0.3𝑠𝑒𝑐, 𝑆(𝑇) is determined as 2.5 using by Eq. (3). The effective ground acceleration 
+coefficient, 𝐴0, visible in Eq. (2) is defined as 0.40 for the first seismic zone. The building importance factor, 𝐼 is 
+specified as 1 assuming PVSP support structure like as industrial structure. By using these parameters, 𝐴(𝑇) is 
+calculated as 1. The elastic seismic loads to be determined in terms of spectral acceleration coefficient defined in 
+
+=== PAGE 7 ===
+7 
+Eq. (2) can be divided to below defined seismic load reduction factor to account for. Seismic load reduction factor, 
+𝑅𝑎 is determined by Eq. (4) in terms of structural system behavior factor, 𝑅 for various structural systems, and 𝑇. 
+Since 𝑇 in the project is less than 𝑇𝐴, 𝑅𝑎(𝑇) = 𝑅 is taken as 4.  
+ 
+( )
+1.5
+(
+1.5)
+a
+A
+T
+R T
+R
+S
+T
+=
++
+−
+ 
+(0
+)
+A
+T
+T
+
+
+ 
+                                                (4) 
+( )
+a
+R T
+R
+=
+ 
+(
+)
+A
+T
+T
+
+ 
+ 
+5.4. Design load combinations  
+ 
+In structural engineering practice, individual structural members are designed for the critical scenarios. 
+Conventionally such critical scenarios are identified using structural analysis for different load combinations. 
+Conventionally dead, live, earthquake and wind loads are the primary load types used to analyze a structure for 
+various parameters. Further, combining load combinations and load patterns requires the engineer to do multiple 
+iterations of structural analyses in order to capture the critical scenario. In fact, for simplicity standard structural 
+engineering codes of practice have suggested several critical load patterns. Load combinations specified by TS 648 
+and Earthquake Regulation-2007 in Section 2.7.5 are tabulated in Table 4. 
+ 
+6. Analysis Method  
+ 
+The method to be used here for the seismic FEA of PVSP steel support structure by using SAP2000 v14 (2009) 
+is equivalent seismic load method as described in Earthquake Regulation-2007. The analysis method can use 
+for the PVSP support structure due to the height of frame is less than 40m. The distributed equivalent load is applied 
+at the mass center of PVSP support structure. Firstly, for the specification of total equivalent earthquake loads, the 
+total structure weights, 𝑊𝑇 is calculated. Secondly, total equivalent seismic load (base shear), 𝑉𝑡, effective on the 
+whole structure is specified by Eq. (5). This load is assigned to the mass center. The value of acceleration due to 
+gravity, denoted 𝑔, is 𝑔= 9.81𝑚/𝑠2. Here, total structure weight, 𝑊𝑇 given in Eq. (5) is summarized in Table 5 
+and 𝑉𝑡 is calculated using Eq. (5) as 21191.09𝑁. 
+ 
+1
+0
+1
+( )
+0.10
+( )
+T
+t
+a
+W A T
+V
+A IW
+R T
+=
+
+                                                                                                                                    (5) 
+ 
+Table 4. Classification of load combinations 
+Load condition 
+Load combinations 
+Long-term 
+The usual 
+D+0.7S 
+Short-term 
+Snow 
+D+S 
+Wind 
+D+S+W 
+D+S-W 
+0.9D+W 
+0.9D-W 
+Earthquake 
+D+S+E 
+D+S-E 
+0.9D+E 
+0.9D-E 
+ 
+ 
+
+=== PAGE 8 ===
+8 
+Table 5. Total structure weight, 𝑊𝑇 
+Definition of weights 
+Designated load cases 
+𝑾𝑻 (𝑵) 
+Total weight of PVSP 
+D1 
+18.5x4x11x9.81=7985.34 
+Total weight of top frame 
+(rail+beam+purlin+bolt) 
+ 
+D2+D3+D4+D5 
+2765+8584+150+425=11924 
+Total weight per a column (front 
+and back) above ground level 
+D6 
+(452+880)/4=333 
+Snow weight on 𝐴𝑃𝑉𝑆𝑃 
+S 
+880x73.32=64522 
+Total structure weight 
+ 
+WT=84764.34 
+ 
+The rules for dimensioning of the frames with normal ductility level are given in Earthquake Regulation-2007. 
+Each load bearing members’ section should be checked for local buckling which is defined as a slenderness 
+ratio of the width to flange thickness in C-channel sections by considering the ductility level in the design. In 
+this paper, the requirement for a compact C-channel sections were fulfilled by all frame’ sections for the normal 
+ductility level, because the upper limit values given in Eq. (6) and Eq. (7) as below were satisfied, where 𝑏 and 
+𝑡 are the width and thickness of C-channel section (see in Table 2), and 𝐸𝑠 is the elasticity modulus of the steel 
+material considered as 210𝐺𝑃𝑎.  
+ 
+(
+)
+0.4
+2
+s
+a
+b
+E
+t
+
+
+                                                                                                                                              (6) 
+(
+)
+4.0
+s
+a
+h
+E
+t
+
+
+                                                                                                                                                                             (7) 
+ 
+7. Evaluation of Results  
+ 
+The model was designed for the critical scenarios to obtain the resulting von Mises stress distributions on the 
+structure which obtained from SAP2000. It was observed that the maximum von Mises stresses 𝜎𝑚𝑎𝑥 was obtained 
+as 210.5𝑁/𝑚𝑚2 < 212𝑁/𝑚𝑚2 for steel material of S355JR and 114𝑁/𝑚𝑚2 < 144𝑁/𝑚𝑚2 for steel material 
+of S235JR which fulfilled the strength requirements for beam and column with the appropriate structure safety. 
+According to the force analysis results of the model in SAP2000, the maximum axial force obtained among the 
+columns of 10 was 11670.44𝑁 as seen in Figure 3. This value was used as the maximum shear force to check the 
+strength of bolts. As mentioned before, 2M18 steel bolts used in each connection between column and beam were 
+designed per the TS EN 1993-1-8 (1993). The strength of frame and bolts were controlled, and it fulfilled the 
+requirements for the PVSP steel support structure. 
+ 
+8. Conclusions  
+ 
+The purpose of this paper is to discuss the structural design of PV systems for wind, snow, earthquake loads in the 
+Turkey, and provide guidance using current Turkish codes as appropriate. Codes and standards thereon provide a 
+key source representing the state-of-the-art information on a given aspect of engineering discipline enabling the 
+extension of knowhow, based on research and experience, into practice. In view of the increasingly improved 
+database on PVSPs is great help to a designer. This paper has been developed for this purpose. With the introduction 
+of the PV solar power plant, potential design principles used for calculating wind, snow and earthquake loads for 
+PV systems in the Turkey is provided.  
+ 
+
+=== PAGE 9 ===
+9 
+ 
+Figure 3. The maximum axial force to check bolts 
+ 
+References 
+ 
+Aly A. M. and Bitsuamlak, G., 2013. Aerodynamics of Ground-Mounted Solar Panels: Test Model Scale Effects. Journal 
+of 
+Wind 
+Engineering 
+and 
+Industrial 
+Aerodynamics, 
+Part 
+A, 
+123, 
+250-260. 
+https://doi.org/10.1016/j.jweia.2013.07.007. 
+Avci-Karatas, C. and Celik, O.C., 2017. Design, Fabrication, and Cyclic Behavior of Aluminum Alloy Core Buckling 
+Restrained Braces (BRBs). Pamukkale University Journal of Engineering Sciences (PAJES), 23(6), 659-670, 
+https://doi.org/10.5505/pajes.2016.58751. (in Turkish).  
+Avci-Karatas, C., Celik, O.C. and Yalcin C. 2018. Experimental Investigation of Aluminum Alloy and Steel Core 
+Buckling Restrained Braces (BRBs). International Journal of Steel Structures-Springer, 18(2), 650-673. 
+https://doi.org/10.1007/s13296-018-0025-y. 
+Avci-Karatas, C. 2019a. Prediction of Ultimate Load Capacity of Concrete-Filled Steel Tube Columns Using Multivariate 
+Adaptive Regression Splines (MARS). International Journal of Steel & Composite Structures. Techno Press. 33(4), 
+583-594. https://doi.org/10.12989/scs.2019.33.4.583. 
+Avci-Karatas, C., Celik, O.C. and Eruslu, S.O. 2019b. Modeling of Buckling Restrained Braces (BRBs) Using Full-Scale 
+Experimental 
+Data. 
+KSCE-Journal 
+of 
+Civil 
+Engineering-Springer, 
+23(10), 
+4431-4444. 
+https://doi.org/10.1007/s12205-019-2430-y. 
+Avci-Karatas, C. and Celik, O.C. 2019c. Çelik Çekirdekli Burkulması Önlenmiş Çaprazların (BÖÇ) Tasarımı, Üretimi 
+ve Deneysel İncelenmesi. Teknik Dergi, 30(1), 8861-8886. https://doi.org/10.18400/tekderg.309415. (in Turkish). 
+Baetu, G., Teleman, C.E., Axinte, E. and Rosca V.E. 2013. Numerical Simulation of Wind Action on a Solar Panels Array 
+for Different Wind Directions. Buletinul Institutului Politehnic Din Iasi, Publicat de Universitateatehnica 
+Gheorghe Asachi, Din Iasi Tomul LIX (LXIII), Fasc. 4. 
+Girard, A., Gago, E.J., Ordonez, J. and Muneer, T. 2016. Spain’s Energy Outlook: A Review of PV Potential and Energy 
+Export. Renewable Energy, 86, 703-715. 
+Cao, J., Yoshida, A., Saha, P.K. and Tamura, Y. 2013. Wind Loading Characteristics of Solar Arrays Mounted on Flat 
+Roofs. 
+Journal 
+of 
+Wind 
+Engineering 
+and 
+Industrial 
+Aerodynamics. 
+Part 
+A, 
+123, 
+214-225. 
+https://doi.org/10.1016/j.jweia.2013.08.014. 
+Celik, G. and Celik, O. 2019. A Case Study of Structural Failure of Mounting Systems for Solar Panels from South-
+Eastern Turkey: An Investigation of Design Parameters Under Extreme Weather Events. International Journal of 
+Engineering Science Invention (IJESI), 8(1), 2319-6726. 
+CSI SAP 2000. 2009. User’s manual, version 14. Berkeley: Computer and Structures Inc. 
+Dawood, K. 2016. Hybrid Wind-Solar Reliable Solution for Turkey to Meet Electric Demand. Balkan Journal of Electrical 
+and Computer Engineering. 4(2), 62-66. https://doi:10.17694/bajece.06954.2016.09.01. 
+
+=== PAGE 10 ===
+10 
+Drury, E., Lopez, A., Denholm, P. and Margolis, R. 2014. Relative Performance of Tracking Versus Fixed Tilt 
+Photovoltaic Systems in the USA. Progress in Photovoltaics: Research and Applications, 22(12), 1302-1315. 
+https://doi.org/10.1002/pip.2373. 
+Hernandez, R.R., Hoffacker, M.K. and Murphy-Mariscal, M.L. 2015. Solar Energy Development Impacts on Land Cover 
+Change and Protected Areas. Proceedings of the National Academy of Sciences, 112(44), 13579-13584. 
+https://doi.org/10.1073/pnas.1517656112. 
+Kalogirou S.A. 2004. Solar Thermal Collectors and Applications. Progress in Energy and Combustion Science, 30(3), 
+231-295. 
+Lin, C.K., Dai, C.Y. and Wu, J.C. 2013. Analysis of Structural Deformation and Deformation-Induced Solar Radiation 
+Misalignment 
+in 
+a 
+Tracking 
+Photovoltaic 
+System. 
+Renewable 
+Energy, 
+59, 
+65-74. 
+https://doi.org/10.1016/j.renene.2013.03.031. 
+Mathew, A., Biju, B., Mathews, N. and Pathapadu, V. 2013. Design and Stability Analysis of Solar Panel Supporting 
+Structure Subjected to Wind Force. International Journal of Engineering Research and Technology (IJERT), 2(12), 
+559- 565. 
+Mihailidis, A., Panagiotidis, K. and Agouridas K. 2009. Analysis of Solar Panel Support Structures. 3rd ANSA and μETA 
+International Conference, Greece. 
+OECD. 2019. OECD Environmental Performance Reviews: Turkey 2019, OECD Environmental Performance Reviews, 
+OECD Publishing, Paris, https://doi.org/10.1787/9789264309753-en. 
+Parida B, Iniyan S. and Goic R. 2011. A Review of Solar Photovoltaic Technologies. Renewable and Sustainable Energy 
+Reviews, 15(3):1625-1636. 
+Solar. Ministry of Energy and Natural Resources (Turkey). Retrieved 19 February 2019. https://www.enerji.gov.tr/en-
+US/Pages/Solar. Accessed 10.12.2019. 
+Turkey Earthquake Codes (TEC). 2007. Specification for Buildings to be Built in Seismic Zones, Ministry of Public 
+Works and Settlement Government of Republic of Turkey, Turkey. 
+TS 648. 1982. (TSE). Building Code for Steel Structures. TSE Turkish Standards Institution, Ankara, Turkey.  
+TS EN 1993-1-8. 1993. Eurocode 3: Design of Steel Structures - Part 1-8: Design of Joints. TSE Turkish Standards 
+Institution; Ankara, Turkey. 
+TS 498. 1997. Design Loads for Buildings. TSE Turkish Standards Institution, Ankara, Turkey. 
+TS ISO 9194. 1997. Bases for Design of Structures; Actions Due To the Self-Weight of Structures, Non-Structural 
+Elements and Stored Materials; Density. TSE Turkish Standards Institution. Ankara, Turkey. 
+TS EN 10279. 2005. Hot Rolled Steel Channels- Tolerances on Shape, Dimensions and Mass. TSE Turkish Standards 
+Institution; Ankara, Turkey. 
+TS EN 1991-1-3. 2007. Eurocode 1 - Actions on Structures - Part 1-3: General Actions - Snow loads. TSE Turkish 
+Standards Institution; Ankara, Turkey. 
+Wang X., Ji, G., Gu, H., Lv, S., Ni, H., Wang, P., Chen, K. and Meng, Y. 2018. Research and Design of Fixed Photovoltaic 
+Support Structure Based on Sap2000. MATEC Web of Conference (ICMAA-2018), 166, 03002. 
+https://doi.org/10.1051/matecconf/201816603002. 

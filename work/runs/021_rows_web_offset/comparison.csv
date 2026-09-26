@@ -1,0 +1,4 @@
+metric,paper,abaqus,case,error_percent,within_10_percent
+beam_mises_MPa,210.5,67.094970703125,D_S_W,68.12590465409738,False
+column_mises_MPa,114.0,37.12108612060547,D_S_W,67.43764375385486,False
+column_compression_N,11670.44,13160.4658203125,D_S_W,12.767520507474433,False

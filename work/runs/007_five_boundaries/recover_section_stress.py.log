@@ -1,0 +1,79 @@
+{
+  "envelope": {
+    "P2": {
+      "case": "D_S_W",
+      "family": "P2",
+      "recovered_vm_MPa": 75.89481590399106,
+      "element": 547,
+      "wall_segment": 3,
+      "wall_fraction": 1.0,
+      "S11_MPa": 55.935115814208984,
+      "shear_flow_stress_MPa": 14.351209948719372,
+      "torsional_face_stress_MPa": -15.264584823393486,
+      "shear_centre_torque_Nmm": -23120.7578125,
+      "shear_flow_centroid_torque_Nmm": 477409.9662264599,
+      "centroid_total_torque_Nmm": 454289.2084139599
+    },
+    "P3": {
+      "case": "D_S_W",
+      "family": "P3",
+      "recovered_vm_MPa": 47.34614306876293,
+      "element": 584,
+      "wall_segment": 2,
+      "wall_fraction": 1.0,
+      "S11_MPa": -47.01130294799805,
+      "shear_flow_stress_MPa": -2.054061078521147,
+      "torsional_face_stress_MPa": -1.191174332524689,
+      "shear_centre_torque_Nmm": -1804.2320556640625,
+      "shear_flow_centroid_torque_Nmm": -62485.597789202504,
+      "centroid_total_torque_Nmm": -64289.82984486657
+    },
+    "P4": {
+      "case": "D_S_W",
+      "family": "P4",
+      "recovered_vm_MPa": 40.35370376261793,
+      "element": 640,
+      "wall_segment": 3,
+      "wall_fraction": 1.0,
+      "S11_MPa": -40.3017692565918,
+      "shear_flow_stress_MPa": 0.1147802608616254,
+      "torsional_face_stress_MPa": -1.0668573245196276,
+      "shear_centre_torque_Nmm": -1615.9332275390625,
+      "shear_flow_centroid_torque_Nmm": -18601.059958814403,
+      "centroid_total_torque_Nmm": -20216.993186353466
+    },
+    "P5": {
+      "case": "D_S_W",
+      "family": "P5",
+      "recovered_vm_MPa": 196.92991571091304,
+      "element": 180,
+      "wall_segment": 1,
+      "wall_fraction": 1.0,
+      "S11_MPa": 120.08121490478516,
+      "shear_flow_stress_MPa": -3.021657965932227,
+      "torsional_face_stress_MPa": 87.09288678850446,
+      "shear_centre_torque_Nmm": 104046.96875,
+      "shear_flow_centroid_torque_Nmm": -100134.1753139267,
+      "centroid_total_torque_Nmm": 3912.793436073305
+    },
+    "P6": {
+      "case": "D_S_W",
+      "family": "P6",
+      "recovered_vm_MPa": 16.519743753152856,
+      "element": 653,
+      "wall_segment": 3,
+      "wall_fraction": 1.0,
+      "S11_MPa": 16.516136169433594,
+      "shear_flow_stress_MPa": -0.0,
+      "torsional_face_stress_MPa": -0.19931524658203126,
+      "shear_centre_torque_Nmm": -149.48643493652344,
+      "shear_flow_centroid_torque_Nmm": 936.1843943595885,
+      "centroid_total_torque_Nmm": 786.6979594230651
+    }
+  },
+  "auditmax": [
+    2.7284841053187847e-12,
+    0.0011717478467971887,
+    0.14570493229412582
+  ]
+}

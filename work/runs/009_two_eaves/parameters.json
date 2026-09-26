@@ -1,0 +1,13 @@
+{
+  "run_id": "009_two_eaves",
+  "mesh_size": 200.0,
+  "wind_pressure": 101.0,
+  "purlin_layout": "custom",
+  "dead_mode": "geometry",
+  "column_top_shift": 0.0,
+  "brace_front_drop": 125.0,
+  "purlin_stations": [
+    0.0,
+    4020.0
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "run_id": "008_centroid_height",
+  "mesh_size": 200.0,
+  "wind_pressure": 101.0,
+  "purlin_layout": "row_centres",
+  "dead_mode": "geometry",
+  "column_top_shift": 67.1,
+  "brace_front_drop": 125.0
+}

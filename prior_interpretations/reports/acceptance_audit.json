@@ -1,0 +1,332 @@
+{
+  "run_count": 25,
+  "pass_count": 0,
+  "scope": {
+    "omit_P1_panels": "implemented in inspected builder; effect on original stiffness remains a source limitation",
+    "dead_snow_wind_only": "implemented; original stress governing combinations undisclosed",
+    "above_ground_columns": "implemented",
+    "Abaqus_2014_compatibility": "UNTESTED",
+    "editable_CAE_INP_ODB_source": "development artifacts available; no validated candidate",
+    "hand_over_only_after_pass": "satisfied by withholding delivery"
+  },
+  "completion": "NOT ACHIEVED",
+  "evidence": [
+    {
+      "run": "000_baseline",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": false,
+      "errors_percent": null,
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "001_verified_baseline",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        71.04210242547308,
+        54.86113944631865,
+        12.612682193751912
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "002_mesh100",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        66.82463735540405,
+        53.58228023759739,
+        12.64676436256902
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "003_wind378",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        61.26686419207314,
+        34.217304586660916,
+        42.98930004995527
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "004_wind756",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        47.91530440011734,
+        1.7218083200552514,
+        84.44213743762018
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "005_paper_weights",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        70.3995691736794,
+        55.46064571573175,
+        12.343003790452634
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "006_two_outer",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        55.175250409487454,
+        22.31728109714748,
+        17.204838142349388
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "007_five_boundaries",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        63.94545562755769,
+        58.46829555371673,
+        15.304579414422248
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "008_centroid_height",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        71.11464586852743,
+        55.00977753145456,
+        12.12688786262557
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "009_two_eaves",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        6.88364548875583,
+        52.74605249491546,
+        27.653863762848687
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "010_mesh50",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        65.34704060201997,
+        52.9195560739117,
+        12.665073173119424
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "011_mesh25",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        64.44919646356577,
+        52.61195443837274,
+        12.675097832643845
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "012_mesh12p5",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        64.03152225774924,
+        52.453110353729706,
+        12.679482575207102
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "013_abaqus2018",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        64.44918993093742,
+        52.61195443837274,
+        12.675097832643845
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "014_nlgeom50",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        65.98498389598339,
+        50.53774332135361,
+        12.041117612103736
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "015_pinned_columns",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        120.99401782409522,
+        173.3306785935482,
+        6.7282572599019375
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "016_eaves_pinned_columns",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        172.78968464571142,
+        625.8721425197185,
+        13.93825513969482
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "017_eaves_all_pinned",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        202.5446579744786,
+        223.4850813050168,
+        9.995041090460166
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "018_eaves_true_pins",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        234.41737218940722,
+        36.34280441840111,
+        4.0569281636982035
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "019_eaves_column_pins",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        234.63030019190882,
+        34.765286019292155,
+        4.283646131272678
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "020_eaves_inplane_pins",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        4.279197787786759,
+        47.69989414982096,
+        7.401967934049614
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "021_rows_web_offset",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        66.6246765435782,
+        67.39856358336954,
+        12.767520507474428
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "022_eaves_pins_web_offset",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        0.7662695292298682,
+        57.20775378158282,
+        7.5127830977238075
+      ],
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "023_open_section_warping",
+      "cae_exists": false,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": false,
+      "errors_percent": null,
+      "three_numeric_thresholds_pass": false
+    },
+    {
+      "run": "024_c125_rounded_r8",
+      "cae_exists": true,
+      "odb_exists": true,
+      "solver_completed": true,
+      "qualified_stress_comparison_available": true,
+      "errors_percent": [
+        63.87422028430654,
+        51.8065933488959,
+        12.536434532995333
+      ],
+      "three_numeric_thresholds_pass": false
+    }
+  ]
+}

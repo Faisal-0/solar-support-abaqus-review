@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2012"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2012"/>
+<meta xmlns="" name="DC.Type" content="reference"/>
+<meta xmlns="" name="DC.Title" content="*RELEASE"/>
+<meta xmlns="" name="abstract" content="Release rotational degrees of freedom at one or both ends of a beam element."/>
+<meta xmlns="" name="description" content="Release rotational degrees of freedom at one or both ends of a beam element."/>
+<meta xmlns="" name="DC.Relation" scheme="URI" content="../SIMACAECSTRefMap/simacst-c-kinematiccoupling.htm"/>
+<meta xmlns="" name="DC.Relation" scheme="URI" content="../SIMACAECSTRefMap/simacst-c-release.htm"/>
+<meta xmlns="" name="DC.Format" content="XHTML"/>
+<meta xmlns="" name="DC.Identifier" content="simakey-r-release"/>
+<meta xmlns="" name="DC.Language" content="en"/>
+<link rel="stylesheet" type="text/css" href="../DSDocXML.css"/>
+<title xmlns="" xmlns:mml="http://www.w3.org/1998/Math/MathML">*RELEASE</title>
+<script xmlns="" xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../DSDocHighlight.js">
+  	/* */
+  	</script></head>
+<body xmlns="" onLoad="highlightSearchTerms();" id="simakey-r-release">
+<a xmlns:mml="http://www.w3.org/1998/Math/MathML" name="hj-top"> </a><table xmlns:mml="http://www.w3.org/1998/Math/MathML" class="table1" id="table11"><tr><td><table class="DocHeader"><tr><td class="DocHeader1" colspan="2"><h1><span xmlns="http://www.w3.org/1999/xhtml" class="ph gen-from-keysectiontitle">*</span><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">RELEASE</span></h1></td></tr><tr><td class="DocHeader4" colspan="2"/></tr><tr><td class="DocHeader3"><table class="DocHeaderIntro" id="table12"><tr><td class="Intro1Only"><p class="header"><p class="abstract"><span class="shortdesc keyworddef">Release rotational degrees
+  of freedom at one or both ends of a beam element.</span>
+<p>This option is used to release a rotational degree of freedom or a
+	 combination of rotational degrees of freedom at one or both ends of a beam
+	 element.
+  </p></p>
+<ul><li><a href="#simakey-r-release__simakey-r-release-s-paramsoptional1" id="toc_rg" title="">Optional parameters</a></li><li><a href="#simakey-r-release__simakey-r-release-s-datadesc1" id="toc_rg" title="">Data lines to
+prescribe the released degrees of freedom</a></li></ul>
+</p></td></tr></table></td><td class="DocHeader2"><table class="DocTopics" id="table13"><tr><td class="TopicsTitle">Related Topics</td></tr><tr><td height="8px"/></tr><tr><td class="TopicsTitleNormal">In Other Guides</td></tr><tr><td><a href="../SIMACAECSTRefMap/simacst-c-kinematiccoupling.htm" class="link">Kinematic coupling constraints</a></td></tr><tr><td><a href="../SIMACAECSTRefMap/simacst-c-release.htm" class="link">Element End Release</a></td></tr></table></td></tr></table>
+
+<div class="body refbody abqkeysectionbody"><div class="section keygroup kwkeygroup"><p class="p keysentry abqproductname"><span class="keyclass gen-from-abqproductname">Products</span><span class="ph key std">Abaqus/Standard</span></p><p class="p keysentry kwtype"><span class="keyclass gen-from-kwtype">Type</span><span class="ph key model-data">Model data</span></p><p class="p keysentry kwlevel"><span class="keyclass gen-from-kwlevel">Level</span><span class="ph key partlevel">Part</span><span class="ph key instancelevel">Part instance</span></p></div><div class="section paramsoptional" id="simakey-r-release__simakey-r-release-s-paramsoptional1"><h2 class="sectiontitle title gen-from-paramsoptional">Optional parameters</h2><dl class="dl paramlist"><dt xmlns="http://www.w3.org/1999/xhtml" class="dlterm dt paramhead"><span class="ph abqparameter">INPUT</span></dt>
+<dd xmlns="http://www.w3.org/1999/xhtml" class="dd paramlistitem"><p xmlns="">Set this parameter equal to the name of the alternate input file containing
+  the data lines for this option. See 
+  <a class="xref" href="../SIMACAEMODRefMap/simamod-c-inputsyntax.htm">Input Syntax Rules</a>
+  for the syntax of such file names. If this parameter is omitted, it is assumed
+  that the data follow the keyword line.
+</p></dd>
+</dl>
+</div>
+<div class="section section datadesc" id="simakey-r-release__simakey-r-release-s-datadesc1"><p><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 class="sectiontitle title datadesctitle">Data lines to
+prescribe the released degrees of freedom</h2><dl class="dl datalines"><dt xmlns="http://www.w3.org/1999/xhtml" class="dlterm dt datalinetitle">First line</dt>
+<dd xmlns="http://www.w3.org/1999/xhtml" class="dd datalinebody"><ol class="ol dataitemlist"><li class="li dataitem"><p xmlns="">Element number or element set label.
+</p></li>
+<li class="li dataitem"><p xmlns="">Element end identifier (<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">S1</span> or
+  <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">S2</span>).
+</p></li>
+<li class="li dataitem"><p xmlns="">Release combination code at the end of the element
+  (<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">M1</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">M2</span>,
+  <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">T</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">M1-M2</span>,
+  <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">M1-T</span>, <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">M2-T</span>,
+  <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">ALLM</span>). See 
+  <a class="xref" href="../SIMACAECSTRefMap/simacst-c-release.htm">Element End Release</a>
+  for a definition of the release combination codes in 
+  <span xmlns="http://www.w3.org/1999/xhtml" class="ph">Abaqus/Standard</span>.
+  This field can be left blank if none of the rotational degrees of freedom are
+  released at this end of the element.
+</p></li>
+</ol>
+<p xmlns="">Repeat this data line as often
+as necessary to specify the rotational degrees of freedom to be released for
+different elements and element
+ends.</p></dd>
+</dl>
+</div>
+</div>
+<div class="related-links"/>
+</td></tr></table><script xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../DSDocStats.js">/* */</script></body>
+</html>

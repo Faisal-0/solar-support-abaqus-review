@@ -1,0 +1,26 @@
+[
+  {
+    "metric": "beam_mises_MPa",
+    "paper": 210.5,
+    "abaqus": 66.41197204589844,
+    "case": "D_S_W",
+    "error_percent": 68.45036957439504,
+    "within_10_percent": false
+  },
+  {
+    "metric": "column_mises_MPa",
+    "paper": 114.0,
+    "abaqus": 52.82347106933594,
+    "case": "D_S_W",
+    "error_percent": 53.66362186900356,
+    "within_10_percent": false
+  },
+  {
+    "metric": "column_compression_N",
+    "paper": 11670.44,
+    "abaqus": 13146.373046875,
+    "case": "D_S_W",
+    "error_percent": 12.646764362569016,
+    "within_10_percent": false
+  }
+]

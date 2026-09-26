@@ -1,0 +1,66 @@
+{
+  "node_count": 9507,
+  "element_count": 9523,
+  "connected_components": [
+    9507
+  ],
+  "coincident_node_duplicates": [],
+  "base_node_count": 10,
+  "contact_count": 88,
+  "contact_area_mm2": 73320000.0,
+  "contact_min_node_degree": 2,
+  "contact_omitted_dead_N": 11175.34,
+  "maximum_force_balance_relative_error": 2.224283083184478e-06,
+  "maximum_moment_balance_relative_error": 2.2316995867041835e-06,
+  "maximum_section_shear_force_residual_N": 1.8749713606747085e-12,
+  "maximum_section_normal_force_residual_N": 0.0016454060883006605,
+  "maximum_section_bending_moment_residual_Nmm": 0.16839877326931763,
+  "input_warning_count": 0,
+  "solver_warning_count": 0,
+  "solver_error_count": 0,
+  "completed": true,
+  "mesh_refinement": {
+    "beam_mises_MPa": {
+      "mesh12p5": 72.98173522949219,
+      "mesh25": 72.0025634765625,
+      "change_percent": 1.3416668565781107
+    },
+    "column_mises_MPa": {
+      "mesh12p5": 54.11290740966797,
+      "mesh25": 53.931522369384766,
+      "change_percent": 0.3351973659629982
+    },
+    "column_compression_N": {
+      "mesh12p5": 13150.19140625,
+      "mesh25": 13149.6796875,
+      "change_percent": 0.0038913406975718333
+    },
+    "recovered_P2": {
+      "mesh12p5": 75.71364564743784,
+      "mesh25": 74.83444144419404,
+      "change_percent": 1.1612229152692428
+    },
+    "recovered_P3": {
+      "mesh12p5": 49.0750231737059,
+      "mesh25": 48.99496194132471,
+      "change_percent": 0.1631404881823607
+    },
+    "recovered_P4": {
+      "mesh12p5": 54.20345419674813,
+      "mesh25": 54.02237194025508,
+      "change_percent": 0.33407881319843985
+    },
+    "recovered_P5": {
+      "mesh12p5": 213.97691815625956,
+      "mesh25": 213.0762329414951,
+      "change_percent": 0.42092634220795405
+    },
+    "recovered_P6": {
+      "mesh12p5": 22.074142893087195,
+      "mesh25": 21.986171976442762,
+      "change_percent": 0.39852472220782265
+    }
+  },
+  "numerical_verification_passed": true,
+  "physical_validation_status": "NOT VALIDATED against paper; numerical verification is not validation."
+}

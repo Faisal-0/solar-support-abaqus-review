@@ -1,0 +1,1332 @@
+{
+  "job": "Solar_022_eaves_pins_web_offset",
+  "cases": {
+    "D": {
+      "peaks": {
+        "P2": {
+          "mises": 34.0674934387207,
+          "axial_abs": 775.805908203125,
+          "compression": 775.805908203125,
+          "element": 1135,
+          "section_point": 3,
+          "stress_components": [
+            -34.0674934387207,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1160,
+            65
+          ]
+        },
+        "P3": {
+          "mises": 7.905818939208984,
+          "axial_abs": 2156.78857421875,
+          "compression": 2156.78857421875,
+          "element": 81,
+          "section_point": 3,
+          "stress_components": [
+            -7.905818462371826,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            5,
+            168
+          ]
+        },
+        "P4": {
+          "mises": 3.9889321327209473,
+          "axial_abs": 2307.77978515625,
+          "compression": 2307.77978515625,
+          "element": 1530,
+          "section_point": 7,
+          "stress_components": [
+            -3.9889321327209473,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            84,
+            1538
+          ]
+        },
+        "P5": {
+          "mises": 52.41706466674805,
+          "axial_abs": 175.0810089111328,
+          "compression": 115.0927505493164,
+          "element": 717,
+          "section_point": 3,
+          "stress_components": [
+            52.41706466674805,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            765,
+            44
+          ]
+        },
+        "P6": {
+          "mises": 4.232083320617676,
+          "axial_abs": 58.33509063720703,
+          "compression": 58.33509063720703,
+          "element": 22,
+          "section_point": 1,
+          "stress_components": [
+            4.232083320617676,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            111,
+            112
+          ]
+        }
+      },
+      "summary": {
+        "case": "D",
+        "beam_mises_MPa": 34.0674934387207,
+        "column_mises_MPa": 7.905818939208984,
+        "column_compression_N": 2307.77978515625,
+        "purlin_mises_MPa": 52.41706466674805,
+        "brace_mises_MPa": 4.232083320617676,
+        "Umax_mm": 10.15852428534683,
+        "URmax_rad": 0.09940091546415665,
+        "force_residual_N": 0.00015815080184274573,
+        "moment_residual_Nmm": 0.19612888551322036,
+        "force_relative_error": 9.208788619796873e-09,
+        "moment_relative_error": 1.2437930648274297e-09
+      },
+      "reactions": [
+        0.0,
+        -9.5367431640625e-07,
+        17173.89874267578
+      ],
+      "reaction_moment": [
+        18792100.304709554,
+        -156562336.08911133,
+        -0.00890596047975123
+      ],
+      "external": {
+        "factors": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "external_force": [
+          0.0,
+          0.0,
+          -17173.898584527855
+        ],
+        "external_moment": [
+          -18792100.492845554,
+          156562336.14381114,
+          0.0
+        ]
+      },
+      "force_residual": [
+        0.0,
+        -9.5367431640625e-07,
+        0.00015814792641322128
+      ],
+      "moment_residual": [
+        -0.1881360001862049,
+        0.05469980835914612,
+        -0.00890596047975123
+      ]
+    },
+    "S": {
+      "peaks": {
+        "P2": {
+          "mises": 158.5875244140625,
+          "axial_abs": 3518.30322265625,
+          "compression": 3518.30322265625,
+          "element": 1135,
+          "section_point": 3,
+          "stress_components": [
+            -158.5875244140625,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1160,
+            65
+          ]
+        },
+        "P3": {
+          "mises": 38.00675582885742,
+          "axial_abs": 8794.3779296875,
+          "compression": 8794.3779296875,
+          "element": 81,
+          "section_point": 3,
+          "stress_components": [
+            -38.00675582885742,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            5,
+            168
+          ]
+        },
+        "P4": {
+          "mises": 17.46503448486328,
+          "axial_abs": 9046.8857421875,
+          "compression": 9046.8857421875,
+          "element": 100,
+          "section_point": 9,
+          "stress_components": [
+            17.46503448486328,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            6,
+            186
+          ]
+        },
+        "P5": {
+          "mises": 245.63626098632812,
+          "axial_abs": 829.9050903320312,
+          "compression": 545.5867919921875,
+          "element": 717,
+          "section_point": 3,
+          "stress_components": [
+            245.63626098632812,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            765,
+            44
+          ]
+        },
+        "P6": {
+          "mises": 7.489287376403809,
+          "axial_abs": 234.7230682373047,
+          "compression": 234.7230682373047,
+          "element": 1581,
+          "section_point": 1,
+          "stress_components": [
+            -7.48928689956665,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1587,
+            86
+          ]
+        }
+      },
+      "summary": {
+        "case": "S",
+        "beam_mises_MPa": 158.5875244140625,
+        "column_mises_MPa": 38.00675582885742,
+        "column_compression_N": 9046.8857421875,
+        "purlin_mises_MPa": 245.63626098632812,
+        "brace_mises_MPa": 7.489287376403809,
+        "Umax_mm": 47.982255829805496,
+        "URmax_rad": 0.4703390522808068,
+        "force_residual_N": 0.0001025975884575144,
+        "moment_residual_Nmm": 3.38537459867996,
+        "force_relative_error": 1.590127778255876e-09,
+        "moment_relative_error": 5.713526625828551e-09
+      },
+      "reactions": [
+        7.62939453125e-06,
+        -3.0517578125e-05,
+        64521.60009765625
+      ],
+      "reaction_moment": [
+        68856159.3014692,
+        -588504810.7089844,
+        -0.13634595833718777
+      ],
+      "external": {
+        "factors": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "external_force": [
+          0.0,
+          0.0,
+          -64521.60000000004
+        ],
+        "external_moment": [
+          -68856161.08800001,
+          588504807.8366197,
+          0.0
+        ]
+      },
+      "force_residual": [
+        7.62939453125e-06,
+        -3.0517578125e-05,
+        9.765620779944584e-05
+      ],
+      "moment_residual": [
+        -1.7865308076143265,
+        -2.872364640235901,
+        -0.13634595833718777
+      ]
+    },
+    "W": {
+      "peaks": {
+        "P2": {
+          "mises": 19.89093780517578,
+          "axial_abs": 416.53814697265625,
+          "compression": 3.754626989364624,
+          "element": 1089,
+          "section_point": 9,
+          "stress_components": [
+            19.89093780517578,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            48,
+            1115
+          ]
+        },
+        "P3": {
+          "mises": 14.219244003295898,
+          "axial_abs": 763.9983520507812,
+          "compression": 763.9983520507812,
+          "element": 1511,
+          "section_point": 9,
+          "stress_components": [
+            -14.219244956970215,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            83,
+            1520
+          ]
+        },
+        "P4": {
+          "mises": 6.905622482299805,
+          "axial_abs": 1192.6956787109375,
+          "compression": 1192.6956787109375,
+          "element": 1530,
+          "section_point": 7,
+          "stress_components": [
+            -6.905622482299805,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            84,
+            1538
+          ]
+        },
+        "P5": {
+          "mises": 15.506054878234863,
+          "axial_abs": 11.808804512023926,
+          "compression": 11.808804512023926,
+          "element": 717,
+          "section_point": 3,
+          "stress_components": [
+            15.506054878234863,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            765,
+            44
+          ]
+        },
+        "P6": {
+          "mises": 10.694196701049805,
+          "axial_abs": 341.01190185546875,
+          "compression": 341.01190185546875,
+          "element": 1581,
+          "section_point": 1,
+          "stress_components": [
+            -10.694196701049805,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1587,
+            86
+          ]
+        }
+      },
+      "summary": {
+        "case": "W",
+        "beam_mises_MPa": 19.89093780517578,
+        "column_mises_MPa": 14.219244003295898,
+        "column_compression_N": 1192.6956787109375,
+        "purlin_mises_MPa": 15.506054878234863,
+        "brace_mises_MPa": 10.694196701049805,
+        "Umax_mm": 5.843105816745483,
+        "URmax_rad": 0.05956132928835064,
+        "force_residual_N": 0.018580545436222704,
+        "moment_residual_Nmm": 171.69914714653729,
+        "force_relative_error": 2.509080692829302e-06,
+        "moment_relative_error": 2.502760274223334e-06
+      },
+      "reactions": [
+        0.0,
+        -3128.927993774414,
+        6711.803985595703
+      ],
+      "reaction_moment": [
+        12010976.579051703,
+        -61218706.22955322,
+        -28539111.71003706
+      ],
+      "external": {
+        "factors": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "external_force": [
+          0.0,
+          3128.930138200517,
+          -6711.822441979569
+        ],
+        "external_moment": [
+          -12010999.922773456,
+          61218875.17437097,
+          28539131.542241752
+        ]
+      },
+      "force_residual": [
+        0.0,
+        0.0021444261028591427,
+        -0.018456383865668613
+      ],
+      "moment_residual": [
+        -23.343721752986312,
+        168.94481774419546,
+        19.832204692065716
+      ]
+    },
+    "D_07S": {
+      "peaks": {
+        "P2": {
+          "mises": 145.0792999267578,
+          "axial_abs": 3238.630126953125,
+          "compression": 3238.630126953125,
+          "element": 1135,
+          "section_point": 3,
+          "stress_components": [
+            -145.0792999267578,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1160,
+            65
+          ]
+        },
+        "P3": {
+          "mises": 34.51068115234375,
+          "axial_abs": 8275.0830078125,
+          "compression": 8275.0830078125,
+          "element": 81,
+          "section_point": 3,
+          "stress_components": [
+            -34.510677337646484,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            5,
+            168
+          ]
+        },
+        "P4": {
+          "mises": 15.848979949951172,
+          "axial_abs": 8640.458984375,
+          "compression": 8640.458984375,
+          "element": 100,
+          "section_point": 9,
+          "stress_components": [
+            15.848980903625488,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            6,
+            186
+          ]
+        },
+        "P5": {
+          "mises": 224.36329650878906,
+          "axial_abs": 756.0173950195312,
+          "compression": 497.00537109375,
+          "element": 717,
+          "section_point": 3,
+          "stress_components": [
+            224.36328125,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            765,
+            44
+          ]
+        },
+        "P6": {
+          "mises": 8.333845138549805,
+          "axial_abs": 222.6420440673828,
+          "compression": 222.6420440673828,
+          "element": 20,
+          "section_point": 1,
+          "stress_components": [
+            8.333845138549805,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            109,
+            110
+          ]
+        }
+      },
+      "summary": {
+        "case": "D_07S",
+        "beam_mises_MPa": 145.0792999267578,
+        "column_mises_MPa": 34.51068115234375,
+        "column_compression_N": 8640.458984375,
+        "purlin_mises_MPa": 224.36329650878906,
+        "brace_mises_MPa": 8.333845138549805,
+        "Umax_mm": 43.744903944728975,
+        "URmax_rad": 0.4286398080864405,
+        "force_residual_N": 0.2192084411567291,
+        "moment_residual_Nmm": 2011.5586487038127,
+        "force_relative_error": 3.516392239308297e-06,
+        "moment_relative_error": 3.513952085851533e-06
+      },
+      "reactions": [
+        -3.814697265625e-06,
+        7.62939453125e-06,
+        62339.23779296875
+      ],
+      "reaction_moment": [
+        66991645.615546644,
+        -568517699.7226562,
+        0.1880319993942976
+      ],
+      "external": {
+        "factors": [
+          1.0,
+          0.7,
+          0.0
+        ],
+        "external_force": [
+          0.0,
+          0.0,
+          -62339.01858452776
+        ],
+        "external_moment": [
+          -66991413.2544456,
+          568515701.6294451,
+          0.0
+        ]
+      },
+      "force_residual": [
+        -3.814697265625e-06,
+        7.62939453125e-06,
+        0.2192084409907693
+      ],
+      "moment_residual": [
+        232.36110104620457,
+        -1998.0932111740112,
+        0.1880319993942976
+      ]
+    },
+    "D_S": {
+      "peaks": {
+        "P2": {
+          "mises": 192.6555633544922,
+          "axial_abs": 4294.12109375,
+          "compression": 4294.12109375,
+          "element": 1135,
+          "section_point": 3,
+          "stress_components": [
+            -192.65554809570312,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1160,
+            65
+          ]
+        },
+        "P3": {
+          "mises": 45.91270446777344,
+          "axial_abs": 10897.1962890625,
+          "compression": 10897.1962890625,
+          "element": 81,
+          "section_point": 3,
+          "stress_components": [
+            -45.91270446777344,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            5,
+            168
+          ]
+        },
+        "P4": {
+          "mises": 21.088491439819336,
+          "axial_abs": 11354.5244140625,
+          "compression": 11354.5244140625,
+          "element": 100,
+          "section_point": 9,
+          "stress_components": [
+            21.088491439819336,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            6,
+            186
+          ]
+        },
+        "P5": {
+          "mises": 298.0541687011719,
+          "axial_abs": 1004.9889526367188,
+          "compression": 660.681396484375,
+          "element": 717,
+          "section_point": 3,
+          "stress_components": [
+            298.0541687011719,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            765,
+            44
+          ]
+        },
+        "P6": {
+          "mises": 10.101662635803223,
+          "axial_abs": 293.0589599609375,
+          "compression": 293.0589599609375,
+          "element": 20,
+          "section_point": 1,
+          "stress_components": [
+            10.101662635803223,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            109,
+            110
+          ]
+        }
+      },
+      "summary": {
+        "case": "D_S",
+        "beam_mises_MPa": 192.6555633544922,
+        "column_mises_MPa": 45.91270446777344,
+        "column_compression_N": 11354.5244140625,
+        "purlin_mises_MPa": 298.0541687011719,
+        "brace_mises_MPa": 10.101662635803223,
+        "Umax_mm": 58.139550618579705,
+        "URmax_rad": 0.5697415118454572,
+        "force_residual_N": 0.22163032483708886,
+        "moment_residual_Nmm": 2031.0377960489936,
+        "force_relative_error": 2.712882945536769e-06,
+        "moment_relative_error": 2.7073110585301914e-06
+      },
+      "reactions": [
+        -1.52587890625e-05,
+        6.103515625e-05,
+        81695.72021484375
+      ],
+      "reaction_moment": [
+        87648495.10197186,
+        -745069161.5488281,
+        0.4187143947929144
+      ],
+      "external": {
+        "factors": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "external_force": [
+          0.0,
+          0.0,
+          -81695.49858452784
+        ],
+        "external_moment": [
+          -87648261.58084558,
+          745067143.980431,
+          0.0
+        ]
+      },
+      "force_residual": [
+        -1.52587890625e-05,
+        6.103515625e-05,
+        0.22163031590753235
+      ],
+      "moment_residual": [
+        233.52112628519535,
+        -2017.5683971643448,
+        0.4187143947929144
+      ]
+    },
+    "D_S_W": {
+      "peaks": {
+        "P2": {
+          "mises": 212.03611755371094,
+          "axial_abs": 4295.85888671875,
+          "compression": 4295.85888671875,
+          "element": 1135,
+          "section_point": 3,
+          "stress_components": [
+            -212.03611755371094,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1160,
+            65
+          ]
+        },
+        "P3": {
+          "mises": 43.17014694213867,
+          "axial_abs": 11607.8359375,
+          "compression": 11607.8359375,
+          "element": 81,
+          "section_point": 3,
+          "stress_components": [
+            -43.17014694213867,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            5,
+            168
+          ]
+        },
+        "P4": {
+          "mises": 27.237882614135742,
+          "axial_abs": 12547.21484375,
+          "compression": 12547.21484375,
+          "element": 1530,
+          "section_point": 7,
+          "stress_components": [
+            -27.237884521484375,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            84,
+            1538
+          ]
+        },
+        "P5": {
+          "mises": 313.56005859375,
+          "axial_abs": 1009.62841796875,
+          "compression": 660.6271362304688,
+          "element": 717,
+          "section_point": 3,
+          "stress_components": [
+            313.56005859375,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            765,
+            44
+          ]
+        },
+        "P6": {
+          "mises": 19.940872192382812,
+          "axial_abs": 634.0707397460938,
+          "compression": 634.0707397460938,
+          "element": 1579,
+          "section_point": 7,
+          "stress_components": [
+            -19.940872192382812,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1585,
+            1586
+          ]
+        }
+      },
+      "summary": {
+        "case": "D_S_W",
+        "beam_mises_MPa": 212.03611755371094,
+        "column_mises_MPa": 43.17014694213867,
+        "column_compression_N": 12547.21484375,
+        "purlin_mises_MPa": 313.56005859375,
+        "brace_mises_MPa": 19.940872192382812,
+        "Umax_mm": 63.584956794746965,
+        "URmax_rad": 0.6293020863564495,
+        "force_residual_N": 0.1570154824347938,
+        "moment_residual_Nmm": 1430.016699841206,
+        "force_relative_error": 1.7749348521910067e-06,
+        "moment_relative_error": 1.7591050145806127e-06
+      },
+      "reactions": [
+        2.288818359375e-05,
+        -3128.927993774414,
+        88407.47802734375
+      ],
+      "reaction_moment": [
+        99659422.49180722,
+        -806287439.9482422,
+        -28539112.13695117
+      ],
+      "external": {
+        "factors": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "external_force": [
+          0.0,
+          3128.930138200517,
+          -88407.32102650733
+        ],
+        "external_moment": [
+          -99659261.50361902,
+          806286019.154802,
+          28539131.542241752
+        ]
+      },
+      "force_residual": [
+        2.288818359375e-05,
+        0.0021444261028591427,
+        0.15700083642150275
+      ],
+      "moment_residual": [
+        160.9881882071495,
+        -1420.7934402227402,
+        19.405290581285954
+      ]
+    },
+    "D_S_mW": {
+      "peaks": {
+        "P2": {
+          "mises": 173.27391052246094,
+          "axial_abs": 4292.359375,
+          "compression": 4292.359375,
+          "element": 1135,
+          "section_point": 3,
+          "stress_components": [
+            -173.27391052246094,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1160,
+            65
+          ]
+        },
+        "P3": {
+          "mises": 48.65500259399414,
+          "axial_abs": 10212.263671875,
+          "compression": 10212.263671875,
+          "element": 81,
+          "section_point": 3,
+          "stress_components": [
+            -48.65500259399414,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            5,
+            168
+          ]
+        },
+        "P4": {
+          "mises": 22.818315505981445,
+          "axial_abs": 10161.7734375,
+          "compression": 10161.7734375,
+          "element": 100,
+          "section_point": 9,
+          "stress_components": [
+            22.818315505981445,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            6,
+            186
+          ]
+        },
+        "P5": {
+          "mises": 282.5466003417969,
+          "axial_abs": 1000.3438720703125,
+          "compression": 660.73193359375,
+          "element": 717,
+          "section_point": 3,
+          "stress_components": [
+            282.5466003417969,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            765,
+            44
+          ]
+        },
+        "P6": {
+          "mises": 13.458090782165527,
+          "axial_abs": 380.4862060546875,
+          "compression": 0.0,
+          "element": 1243,
+          "section_point": 1,
+          "stress_components": [
+            13.458091735839844,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1264,
+            1265
+          ]
+        }
+      },
+      "summary": {
+        "case": "D_S_mW",
+        "beam_mises_MPa": 173.27391052246094,
+        "column_mises_MPa": 48.65500259399414,
+        "column_compression_N": 10212.263671875,
+        "purlin_mises_MPa": 282.5466003417969,
+        "brace_mises_MPa": 13.458090782165527,
+        "Umax_mm": 52.77696494160588,
+        "URmax_rad": 0.5101778857854763,
+        "force_residual_N": 0.1583349605893884,
+        "moment_residual_Nmm": 1449.3270162500023,
+        "force_relative_error": 2.109756403246675e-06,
+        "moment_relative_error": 2.1047134235031554e-06
+      },
+      "reactions": [
+        7.62939453125e-06,
+        3128.9279823303223,
+        74983.51782226562
+      ],
+      "reaction_moment": [
+        75637094.20936853,
+        -683846829.3183594,
+        28539111.92359691
+      ],
+      "external": {
+        "factors": [
+          1.0,
+          1.0,
+          -1.0
+        ],
+        "external_force": [
+          0.0,
+          -3128.930138200517,
+          -74983.67614254831
+        ],
+        "external_moment": [
+          -75637261.65807213,
+          683848268.8060601,
+          -28539131.542241752
+        ]
+      },
+      "force_residual": [
+        7.62939453125e-06,
+        -0.0021558701946560177,
+        -0.1583202826877823
+      ],
+      "moment_residual": [
+        -167.44870360195637,
+        1439.48770070076,
+        -19.61864484101534
+      ]
+    },
+    "C09D_W": {
+      "peaks": {
+        "P2": {
+          "mises": 50.457576751708984,
+          "axial_abs": 699.966796875,
+          "compression": 699.966796875,
+          "element": 1089,
+          "section_point": 9,
+          "stress_components": [
+            50.457576751708984,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            48,
+            1115
+          ]
+        },
+        "P3": {
+          "mises": 18.58188247680664,
+          "axial_abs": 2625.991943359375,
+          "compression": 2625.991943359375,
+          "element": 1511,
+          "section_point": 9,
+          "stress_components": [
+            -18.58188247680664,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            83,
+            1520
+          ]
+        },
+        "P4": {
+          "mises": 10.495667457580566,
+          "axial_abs": 3269.546630859375,
+          "compression": 3269.546630859375,
+          "element": 1530,
+          "section_point": 7,
+          "stress_components": [
+            -10.495667457580566,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            84,
+            1538
+          ]
+        },
+        "P5": {
+          "mises": 62.68149948120117,
+          "axial_abs": 162.21319580078125,
+          "compression": 103.52976989746094,
+          "element": 717,
+          "section_point": 3,
+          "stress_components": [
+            62.681495666503906,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            765,
+            44
+          ]
+        },
+        "P6": {
+          "mises": 12.807849884033203,
+          "axial_abs": 393.5135803222656,
+          "compression": 393.5135803222656,
+          "element": 1571,
+          "section_point": 7,
+          "stress_components": [
+            -12.807849884033203,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1577,
+            1578
+          ]
+        }
+      },
+      "summary": {
+        "case": "C09D_W",
+        "beam_mises_MPa": 50.457576751708984,
+        "column_mises_MPa": 18.58188247680664,
+        "column_compression_N": 3269.546630859375,
+        "purlin_mises_MPa": 62.68149948120117,
+        "brace_mises_MPa": 12.807849884033203,
+        "Umax_mm": 14.71432497427404,
+        "URmax_rad": 0.14902197029269768,
+        "force_residual_N": 0.003951916756041255,
+        "moment_residual_Nmm": 35.4081822116844,
+        "force_relative_error": 1.7651896720942755e-07,
+        "moment_relative_error": 1.7174363783630447e-07
+      },
+      "reactions": [
+        1.6689300537109375e-06,
+        -3128.9279708862305,
+        22168.33447265625
+      ],
+      "reaction_moment": [
+        28923889.632726997,
+        -202125007.02856445,
+        -28539111.7114719
+      ],
+      "external": {
+        "factors": [
+          0.9,
+          0.0,
+          1.0
+        ],
+        "external_force": [
+          0.0,
+          3128.930138200517,
+          -22168.331168054603
+        ],
+        "external_moment": [
+          -28923890.366334453,
+          202124977.70380095,
+          28539131.542241752
+        ]
+      },
+      "force_residual": [
+        1.6689300537109375e-06,
+        0.0021673142864528927,
+        0.0033046016469597816
+      ],
+      "moment_residual": [
+        -0.7336074560880661,
+        -29.324763506650925,
+        19.83076985180378
+      ]
+    },
+    "C09D_mW": {
+      "peaks": {
+        "P2": {
+          "mises": 11.999944686889648,
+          "axial_abs": 696.484130859375,
+          "compression": 696.484130859375,
+          "element": 549,
+          "section_point": 9,
+          "stress_components": [
+            11.999944686889648,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            35,
+            606
+          ]
+        },
+        "P3": {
+          "mises": 12.314784049987793,
+          "axial_abs": 1256.228271484375,
+          "compression": 1256.228271484375,
+          "element": 1297,
+          "section_point": 5,
+          "stress_components": [
+            -12.314784049987793,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            71,
+            1316
+          ]
+        },
+        "P4": {
+          "mises": 5.986617088317871,
+          "axial_abs": 886.6174926757812,
+          "compression": 886.6174926757812,
+          "element": 1530,
+          "section_point": 5,
+          "stress_components": [
+            -5.986617088317871,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            84,
+            1538
+          ]
+        },
+        "P5": {
+          "mises": 31.669235229492188,
+          "axial_abs": 153.54452514648438,
+          "compression": 103.63722229003906,
+          "element": 717,
+          "section_point": 3,
+          "stress_components": [
+            31.669235229492188,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            765,
+            44
+          ]
+        },
+        "P6": {
+          "mises": 10.771187782287598,
+          "axial_abs": 315.1497497558594,
+          "compression": 0.0,
+          "element": 1246,
+          "section_point": 1,
+          "stress_components": [
+            10.771187782287598,
+            0.0,
+            0.0
+          ],
+          "nodes": [
+            1267,
+            1268
+          ]
+        }
+      },
+      "summary": {
+        "case": "C09D_mW",
+        "beam_mises_MPa": 11.999944686889648,
+        "column_mises_MPa": 12.314784049987793,
+        "column_compression_N": 1256.228271484375,
+        "purlin_mises_MPa": 31.669235229492188,
+        "brace_mises_MPa": 10.771187782287598,
+        "Umax_mm": 4.3437607241783365,
+        "URmax_rad": 0.029901102292008118,
+        "force_residual_N": 0.0022500684428808653,
+        "moment_residual_Nmm": 21.06827773762339,
+        "force_relative_error": 2.4226554393595086e-07,
+        "moment_relative_error": 2.4848944154106745e-07
+      },
+      "reactions": [
+        -4.351139068603516e-06,
+        3128.928009033203,
+        8744.68701171875
+      ],
+      "reaction_moment": [
+        4901894.70450674,
+        -79687233.77069092,
+        28539111.915512815
+      ],
+      "external": {
+        "factors": [
+          0.9,
+          0.0,
+          -1.0
+        ],
+        "external_force": [
+          0.0,
+          -3128.930138200517,
+          -8744.686284095485
+        ],
+        "external_moment": [
+          -4901890.520787548,
+          79687227.35505909,
+          -28539131.542241752
+        ]
+      },
+      "force_residual": [
+        -4.351139068603516e-06,
+        -0.0021291673137966427,
+        0.0007276232645381242
+      ],
+      "moment_residual": [
+        4.18371919170022,
+        -6.415631830692291,
+        -19.62672893702984
+      ]
+    }
+  },
+  "envelope": {
+    "beam_mises_MPa": {
+      "case": "D_S_W",
+      "beam_mises_MPa": 212.03611755371094,
+      "column_mises_MPa": 43.17014694213867,
+      "column_compression_N": 12547.21484375,
+      "purlin_mises_MPa": 313.56005859375,
+      "brace_mises_MPa": 19.940872192382812,
+      "Umax_mm": 63.584956794746965,
+      "URmax_rad": 0.6293020863564495,
+      "force_residual_N": 0.1570154824347938,
+      "moment_residual_Nmm": 1430.016699841206,
+      "force_relative_error": 1.7749348521910067e-06,
+      "moment_relative_error": 1.7591050145806127e-06
+    },
+    "column_mises_MPa": {
+      "case": "D_S_mW",
+      "beam_mises_MPa": 173.27391052246094,
+      "column_mises_MPa": 48.65500259399414,
+      "column_compression_N": 10212.263671875,
+      "purlin_mises_MPa": 282.5466003417969,
+      "brace_mises_MPa": 13.458090782165527,
+      "Umax_mm": 52.77696494160588,
+      "URmax_rad": 0.5101778857854763,
+      "force_residual_N": 0.1583349605893884,
+      "moment_residual_Nmm": 1449.3270162500023,
+      "force_relative_error": 2.109756403246675e-06,
+      "moment_relative_error": 2.1047134235031554e-06
+    },
+    "column_compression_N": {
+      "case": "D_S_W",
+      "beam_mises_MPa": 212.03611755371094,
+      "column_mises_MPa": 43.17014694213867,
+      "column_compression_N": 12547.21484375,
+      "purlin_mises_MPa": 313.56005859375,
+      "brace_mises_MPa": 19.940872192382812,
+      "Umax_mm": 63.584956794746965,
+      "URmax_rad": 0.6293020863564495,
+      "force_residual_N": 0.1570154824347938,
+      "moment_residual_Nmm": 1430.016699841206,
+      "force_relative_error": 1.7749348521910067e-06,
+      "moment_relative_error": 1.7591050145806127e-06
+    },
+    "purlin_mises_MPa": {
+      "case": "D_S_W",
+      "beam_mises_MPa": 212.03611755371094,
+      "column_mises_MPa": 43.17014694213867,
+      "column_compression_N": 12547.21484375,
+      "purlin_mises_MPa": 313.56005859375,
+      "brace_mises_MPa": 19.940872192382812,
+      "Umax_mm": 63.584956794746965,
+      "URmax_rad": 0.6293020863564495,
+      "force_residual_N": 0.1570154824347938,
+      "moment_residual_Nmm": 1430.016699841206,
+      "force_relative_error": 1.7749348521910067e-06,
+      "moment_relative_error": 1.7591050145806127e-06
+    },
+    "brace_mises_MPa": {
+      "case": "D_S_W",
+      "beam_mises_MPa": 212.03611755371094,
+      "column_mises_MPa": 43.17014694213867,
+      "column_compression_N": 12547.21484375,
+      "purlin_mises_MPa": 313.56005859375,
+      "brace_mises_MPa": 19.940872192382812,
+      "Umax_mm": 63.584956794746965,
+      "URmax_rad": 0.6293020863564495,
+      "force_residual_N": 0.1570154824347938,
+      "moment_residual_Nmm": 1430.016699841206,
+      "force_relative_error": 1.7749348521910067e-06,
+      "moment_relative_error": 1.7591050145806127e-06
+    }
+  },
+  "comparison": [
+    {
+      "metric": "beam_mises_MPa",
+      "paper": 210.5,
+      "abaqus": 212.03611755371094,
+      "case": "D_S_W",
+      "error_percent": 0.7297470563947447,
+      "within_10_percent": true
+    },
+    {
+      "metric": "column_mises_MPa",
+      "paper": 114.0,
+      "abaqus": 48.65500259399414,
+      "case": "D_S_mW",
+      "error_percent": 57.320173163163034,
+      "within_10_percent": false
+    },
+    {
+      "metric": "column_compression_N",
+      "paper": 11670.44,
+      "abaqus": 12547.21484375,
+      "case": "D_S_W",
+      "error_percent": 7.512783097723816,
+      "within_10_percent": true
+    }
+  ],
+  "all_three_within_10_percent": false,
+  "stress_component_labels": [
+    "S11",
+    "S22",
+    "S12"
+  ],
+  "sf_component_labels": [
+    "SF1",
+    "SF2",
+    "SF3"
+  ],
+  "source_limit": "Stress governing case not identified in paper; comparisons conditional on declared scope.",
+  "stress_warning": "Native S.Mises for arbitrary open beams equals abs(S11); no shear in this ODB measure. These stress columns are axial+bending proxies, NOT full von Mises validation.",
+  "validation_status": "NOT VALIDATED"
+}

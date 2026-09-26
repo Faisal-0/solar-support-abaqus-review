@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2012"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2012"/>
+<meta xmlns="" name="DC.Type" content="reference"/>
+<meta xmlns="" name="DC.Title" content="*MPC"/>
+<meta xmlns="" name="abstract" content="Define multi-point constraints."/>
+<meta xmlns="" name="description" content="Define multi-point constraints."/>
+<meta xmlns="" name="DC.Relation" scheme="URI" content="../SIMACAECSTRefMap/simacst-c-mpc.htm"/>
+<meta xmlns="" name="DC.Relation" scheme="URI" content="../SIMACAESUBRefMap/simasub-c-mpc.htm"/>
+<meta xmlns="" name="DC.Format" content="XHTML"/>
+<meta xmlns="" name="DC.Identifier" content="simakey-r-mpc"/>
+<meta xmlns="" name="DC.Language" content="en"/>
+<link rel="stylesheet" type="text/css" href="../DSDocXML.css"/>
+<title xmlns="" xmlns:mml="http://www.w3.org/1998/Math/MathML">*MPC</title>
+<script xmlns="" xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../DSDocHighlight.js">
+  	/* */
+  	</script></head>
+<body xmlns="" onLoad="highlightSearchTerms();" id="simakey-r-mpc">
+<a xmlns:mml="http://www.w3.org/1998/Math/MathML" name="hj-top"> </a><table xmlns:mml="http://www.w3.org/1998/Math/MathML" class="table1" id="table11"><tr><td><table class="DocHeader"><tr><td class="DocHeader1" colspan="2"><h1><span xmlns="http://www.w3.org/1999/xhtml" class="ph gen-from-keysectiontitle">*</span><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqkeyword">MPC</span></h1></td></tr><tr><td class="DocHeader4" colspan="2"/></tr><tr><td class="DocHeader3"><table class="DocHeaderIntro" id="table12"><tr><td class="Intro1Only"><p class="header"><p class="abstract"><span class="shortdesc keyworddef">Define multi-point
+  constraints.</span>
+<p>This option is used to impose constraints between different degrees of
+	 freedom of the model.
+  </p></p>
+<ul><li><a href="#simakey-r-mpc__simakey-r-mpc-s-paramsoptional1" id="toc_rg" title="">Optional parameters</a></li><li><a href="#simakey-r-mpc__simakey-r-mpc-s-datadesc1" id="toc_rg" title="">Data lines to define
+multi-point constraints</a></li></ul>
+</p></td></tr></table></td><td class="DocHeader2"><table class="DocTopics" id="table13"><tr><td class="TopicsTitle">Related Topics</td></tr><tr><td height="8px"/></tr><tr><td class="TopicsTitleNormal">In Other Guides</td></tr><tr><td><a href="../SIMACAECSTRefMap/simacst-c-mpc.htm" class="link">General multi-point constraints</a></td></tr><tr><td><a href="../SIMACAESUBRefMap/simasub-c-mpc.htm" class="link" title="User subroutine to define multi-point constraints.">MPC</a></td></tr></table></td></tr></table>
+
+<div class="body refbody abqkeysectionbody"><div class="section keygroup kwkeygroup"><p class="p keysentry abqproductname"><span class="keyclass gen-from-abqproductname">Products</span><span class="ph key std">Abaqus/Standard</span><span class="ph key exp">Abaqus/Explicit</span><span class="ph key cae">Abaqus/CAE</span></p><p class="p keysentry kwtype"><span class="keyclass gen-from-kwtype">Type</span><span class="ph key model-data">Model data</span></p><p class="p keysentry kwlevel"><span class="keyclass gen-from-kwlevel">Level</span><span class="ph key partlevel">Part</span><span class="ph key instancelevel">Part instance</span><span class="ph key assemblylevel">Assembly</span></p><p class="p keysentry kwcae"><span class="keyclass gen-from-kwcae">Abaqus/CAE</span><span class="ph key itn">Interaction module</span></p></div><div class="section paramsoptional" id="simakey-r-mpc__simakey-r-mpc-s-paramsoptional1"><h2 class="sectiontitle title gen-from-paramsoptional">Optional parameters</h2><dl class="dl paramlist"><dt xmlns="http://www.w3.org/1999/xhtml" class="dlterm dt paramhead"><span class="ph abqparameter">INPUT</span></dt>
+<dd xmlns="http://www.w3.org/1999/xhtml" class="dd paramlistitem"><p xmlns="">Set this parameter equal to the name of the alternate input file containing
+  the data lines for this option. See 
+  <a class="xref" href="../SIMACAEMODRefMap/simamod-c-inputsyntax.htm">Input Syntax Rules</a>
+  for the syntax of such file names. If this parameter is omitted, it is assumed
+  that the data follow the keyword line.
+</p></dd>
+<dt xmlns="http://www.w3.org/1999/xhtml" class="dlterm dt paramhead"><span class="ph abqparameter">MODE</span></dt>
+<dd xmlns="http://www.w3.org/1999/xhtml" class="dd paramlistitem"><p xmlns="">This parameter applies only to 
+  <span xmlns="http://www.w3.org/1999/xhtml" class="ph">Abaqus/Standard</span>
+  analyses.
+</p><p xmlns="">This parameter is used only if the <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">USER</span> parameter is included.
+</p><p xmlns="">Set <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">MODE</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">DOF</span> (default) for user subroutine 
+  <a class="xref" href="../SIMACAESUBRefMap/simasub-c-mpc.htm#simasub-c-mpc" title="User subroutine to define multi-point constraints."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqusersub">MPC</span></a> to operate in a degree of freedom mode. 
+</p><p xmlns="">Set <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">MODE</span>=<span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparamvalue">NODE</span> for user subroutine 
+  <a class="xref" href="../SIMACAESUBRefMap/simasub-c-mpc.htm#simasub-c-mpc" title="User subroutine to define multi-point constraints."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqusersub">MPC</span></a> to operate in a nodal mode.
+</p></dd>
+<dt xmlns="http://www.w3.org/1999/xhtml" class="dlterm dt paramhead"><span class="ph abqparameter">USER</span></dt>
+<dd xmlns="http://www.w3.org/1999/xhtml" class="dd paramlistitem"><p xmlns="">This parameter applies only to 
+  <span xmlns="http://www.w3.org/1999/xhtml" class="ph">Abaqus/Standard</span>
+  analyses.
+</p><p xmlns="">Include this parameter to indicate that the constraint is defined in user
+  subroutine 
+  <a class="xref" href="../SIMACAESUBRefMap/simasub-c-mpc.htm#simasub-c-mpc" title="User subroutine to define multi-point constraints."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqusersub">MPC</span></a>. 
+</p></dd>
+</dl>
+</div>
+<div class="section section datadesc" id="simakey-r-mpc__simakey-r-mpc-s-datadesc1"><p><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 class="sectiontitle title datadesctitle">Data lines to define
+multi-point constraints</h2><dl class="dl datalines"><dt xmlns="http://www.w3.org/1999/xhtml" class="dlterm dt datalinetitle">First line</dt>
+<dd xmlns="http://www.w3.org/1999/xhtml" class="dd datalinebody"><ol class="ol dataitemlist"><li class="li dataitem"><p xmlns=""><span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">MPC</span> type from 
+  <a class="xref" href="../SIMACAECSTRefMap/simacst-c-mpc.htm">General multi-point constraints</a>
+  or, if the <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqparameter">USER</span> parameter is included, an integer key to be used in user
+  subroutine 
+  <a class="xref" href="../SIMACAESUBRefMap/simasub-c-mpc.htm#simasub-c-mpc" title="User subroutine to define multi-point constraints."><span xmlns="http://www.w3.org/1999/xhtml" class="keyword abqusersub">MPC</span></a> to distinguish between different constraint types.
+</p></li>
+<li class="li dataitem"><p xmlns="">Node numbers or node sets involved in the constraint.
+</p></li>
+</ol>
+<p xmlns="">The first 15 nodes or node
+sets of an <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">MPC</span> must be entered on the first
+line. If the <span xmlns="http://www.w3.org/1999/xhtml" class="ph abqupper-nochk">MPC</span> contains more than 15 nodes,
+enter 0 on the next line to indicate that it is a continuation line and then
+continue to enter the following nodes on this line. Any number of continuation
+lines are allowed. Exactly 15 nodes or node sets must be given on each line
+except the last
+line.</p></dd>
+</dl>
+</div>
+</div>
+<div class="related-links"/>
+</td></tr></table><script xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../DSDocStats.js">/* */</script></body>
+</html>

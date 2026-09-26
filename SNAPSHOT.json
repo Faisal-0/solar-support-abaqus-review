@@ -1,0 +1,15 @@
+{
+  "source_project_commit": "742a4e4c254690c65df6e47a71b7f348ac1ece27",
+  "original_pdf_sha256": "2272d320bad3fa58a15338c9568fad2a5a588f860596543b1521e292ac7370c4",
+  "scope": "Frozen work through run024; excludes concurrently running independent Astra review.",
+  "excluded": [
+    "ODB",
+    "CAE",
+    "SIM",
+    "PRT",
+    "scratch files",
+    "Git history",
+    "concurrent independent review"
+  ],
+  "copied_work_files": 471
+}

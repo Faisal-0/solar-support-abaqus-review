@@ -1,0 +1,127 @@
+[
+  {
+    "run": "000_baseline",
+    "file": "000_baseline.json",
+    "bytes": 620647
+  },
+  {
+    "run": "001_verified_baseline",
+    "file": "001_verified_baseline.json",
+    "bytes": 645730
+  },
+  {
+    "run": "002_mesh100",
+    "file": "002_mesh100.json",
+    "bytes": 639618
+  },
+  {
+    "run": "003_wind378",
+    "file": "003_wind378.json",
+    "bytes": 680102
+  },
+  {
+    "run": "004_wind756",
+    "file": "004_wind756.json",
+    "bytes": 684948
+  },
+  {
+    "run": "005_paper_weights",
+    "file": "005_paper_weights.json",
+    "bytes": 670083
+  },
+  {
+    "run": "006_two_outer",
+    "file": "006_two_outer.json",
+    "bytes": 723387
+  },
+  {
+    "run": "007_five_boundaries",
+    "file": "007_five_boundaries.json",
+    "bytes": 713281
+  },
+  {
+    "run": "008_centroid_height",
+    "file": "008_centroid_height.json",
+    "bytes": 651652
+  },
+  {
+    "run": "009_two_eaves",
+    "file": "009_two_eaves.json",
+    "bytes": 690356
+  },
+  {
+    "run": "010_mesh50",
+    "file": "010_mesh50.json",
+    "bytes": 640495
+  },
+  {
+    "run": "011_mesh25",
+    "file": "011_mesh25.json",
+    "bytes": 640518
+  },
+  {
+    "run": "012_mesh12p5",
+    "file": "012_mesh12p5.json",
+    "bytes": 640764
+  },
+  {
+    "run": "013_abaqus2018",
+    "file": "013_abaqus2018.json",
+    "bytes": 653393
+  },
+  {
+    "run": "014_nlgeom50",
+    "file": "014_nlgeom50.json",
+    "bytes": 691037
+  },
+  {
+    "run": "015_pinned_columns",
+    "file": "015_pinned_columns.json",
+    "bytes": 832343
+  },
+  {
+    "run": "016_eaves_pinned_columns",
+    "file": "016_eaves_pinned_columns.json",
+    "bytes": 815956
+  },
+  {
+    "run": "017_eaves_all_pinned",
+    "file": "017_eaves_all_pinned.json",
+    "bytes": 830838
+  },
+  {
+    "run": "018_eaves_true_pins",
+    "file": "018_eaves_true_pins.json",
+    "bytes": 752742
+  },
+  {
+    "run": "019_eaves_column_pins",
+    "file": "019_eaves_column_pins.json",
+    "bytes": 725419
+  },
+  {
+    "run": "020_eaves_inplane_pins",
+    "file": "020_eaves_inplane_pins.json",
+    "bytes": 724022
+  },
+  {
+    "run": "021_rows_web_offset",
+    "file": "021_rows_web_offset.json",
+    "bytes": 637402
+  },
+  {
+    "run": "022_eaves_pins_web_offset",
+    "file": "022_eaves_pins_web_offset.json",
+    "bytes": 721614
+  },
+  {
+    "run": "023_open_section_warping",
+    "file": "023_open_section_warping.json",
+    "bytes": 643083
+  },
+  {
+    "run": "024_c125_rounded_r8",
+    "file": "024_c125_rounded_r8.json",
+    "bytes": 2124976
+  }
+]
